@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22872413.svg)](https://doi.org/10.5281/zenodo.22872413)
+
 # 1pop-RD-ES-2p-2a
 This is a Mathematica notebook created to analyze the Replicator Dynamics in 2-player 2-action repeated games with Endogenous Separation. 
 
