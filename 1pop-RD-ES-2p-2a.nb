@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    307057,       6720]
-NotebookOptionsPosition[    302519,       6635]
-NotebookOutlinePosition[    303123,       6657]
-CellTagsIndexPosition[    303080,       6654]
+NotebookDataLength[    307303,       6708]
+NotebookOptionsPosition[    302798,       6625]
+NotebookOutlinePosition[    303402,       6647]
+CellTagsIndexPosition[    303359,       6644]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -41,8 +41,6 @@ Cell[TextData[{
  " "
 }], "Subtitle",ExpressionUUID->"c414d9db-7737-4bde-8abd-eaa0928aedb2"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  TagBox[
@@ -400,9 +398,9 @@ y2z0L+N3x2I=
     0, $CellContext`o1$$ = "D", $CellContext`o2$$ = "D", $CellContext`o3$$ = 
     "L", $CellContext`o4$$ = "D", $CellContext`o5$$ = 
     "L", $CellContext`rest$$ = 
-    Or[$CellContext`x1$415530 == 0, $CellContext`x1$415530 == 
-     1, $CellContext`x1$415530 == 
-     Rational[1, 6] (3 - 6^Rational[1, 2]), $CellContext`x1$415530 == 
+    Or[$CellContext`x1$50625 == 0, $CellContext`x1$50625 == 
+     1, $CellContext`x1$50625 == 
+     Rational[1, 6] (3 - 6^Rational[1, 2]), $CellContext`x1$50625 == 
      Rational[1, 6] (3 + 6^Rational[1, 2])], $CellContext`restEigen$$ = {-1, 
      3 (3 + 6^Rational[1, 2])^(-1) (6 + 6^Rational[1, 2])^(-2) (26 + 
       11 6^Rational[1, 2]), 
@@ -426,8 +424,8 @@ y2z0L+N3x2I=
          Rational[1, 6] (3 + 6^Rational[1, 2])))^Rational[1, 2]), 
      1}, $CellContext`restRegions$$ = {}, $CellContext`s1Name$$ = 
     "CSL", $CellContext`s2Name$$ = "DSL", $CellContext`step$$ = Rational[
-    1, 8], $CellContext`update$$ = 0, $CellContext`\[Delta]$$ = Rational[
-    9, 10], $CellContext`\[Epsilon]$$ = 0, Typeset`show$$ = True, 
+    1, 8], $CellContext`update$$ = 0, $CellContext`\[Delta]$$ = 
+    0.9, $CellContext`\[Epsilon]$$ = 0, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{{
@@ -450,8 +448,7 @@ y2z0L+N3x2I=
        Hold[$CellContext`a22$$], 1}, ControlType -> None}, {{
        Hold[$CellContext`gameName$$], "Prisoner's Dilemma"}, ControlType -> 
       None}, {{
-       Hold[$CellContext`\[Delta]$$], 
-       Rational[9, 10]}, ControlType -> None}, {{
+       Hold[$CellContext`\[Delta]$$], 0.9}, ControlType -> None}, {{
        Hold[$CellContext`\[Epsilon]$$], 0}, ControlType -> None}, {{
        Hold[$CellContext`m$$], 0}, ControlType -> None}, {{
        Hold[$CellContext`lengthArrows$$], 1}, ControlType -> None}, {{
@@ -686,23 +683,17 @@ $CellContext`ForceNumber[#])& ], Number, FieldSize -> 3]& ], ControlType ->
       Hold[
        Style["Probability of continuation", Bold, Medium]], 
       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`\[Delta]$$], 
-       Rational[9, 10]}, 
-      Rational[1, 100], 
-      Rational[99, 100], 
-      Rational[1, 100], 
+       Hold[$CellContext`\[Delta]$$], 0.9}, 0.001, 0.999, 0.001, 
       Dynamic[Row[{
          Manipulator[
           SlotSequence[1]], "  ", 
          Dynamic[
-          Round[$CellContext`\[Delta]$$, 0.0001]]}]& ], ControlType -> 
+          Round[$CellContext`\[Delta]$$, 0.001]]}]& ], ControlType -> 
       Automatic}, {
       Hold[
        Style["Probability of action error", Bold, Medium]], 
       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`\[Epsilon]$$], 0}, 0, 
-      Rational[1, 2], 
-      Rational[1, 10000], 
+       Hold[$CellContext`\[Epsilon]$$], 0}, 0, 0.5, 0.0001, 
       Dynamic[Row[{
          Manipulator[
           SlotSequence[1]], "  ", 
@@ -712,9 +703,7 @@ $CellContext`ForceNumber[#])& ], Number, FieldSize -> 3]& ], ControlType ->
       Hold[
        Style["Probability of experimentation", Bold, Medium]], 
       Manipulate`Dump`ThisIsNotAControl, ControlType -> None}, {{
-       Hold[$CellContext`m$$], 0, "\[Mu]"}, 0, 
-      Rational[1, 2], 
-      Rational[1, 10000], 
+       Hold[$CellContext`m$$], 0, "\[Mu]"}, 0, 0.5, 0.0001, 
       Dynamic[Row[{
          Manipulator[
           SlotSequence[1]], "  ", 
@@ -768,8 +757,7 @@ $CellContext`restRegions$$], Method -> "Queued"]],
         Null, $CellContext`restRegions$$ = Null, $CellContext`s1Name$$ = 
         "CSL", $CellContext`s2Name$$ = "DSL", $CellContext`step$$ = 
         Rational[1, 8], $CellContext`update$$ = 0, $CellContext`\[Delta]$$ = 
-        Rational[9, 10], $CellContext`\[Epsilon]$$ = 0}, 
-      "ControllerVariables" :> {}, 
+        0.9, $CellContext`\[Epsilon]$$ = 0}, "ControllerVariables" :> {}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -785,7 +773,11 @@ $CellContext`fastestArrow$, $CellContext`maxArrowLength$, \
 $CellContext`restBranches$, $CellContext`restPointsX$, \
 $CellContext`restBounds$, $CellContext`everyStateRests$, $CellContext`x1$, \
 $CellContext`height$, $CellContext`payoffMin$, $CellContext`payoffMax$, \
-$CellContext`payoffSpan$, $CellContext`fontSize$}, $CellContext`s1$ = 
+$CellContext`payoffSpan$, $CellContext`fontSize$, $CellContext`\[Delta]r$, \
+$CellContext`\[Epsilon]r$, $CellContext`mr$}, $CellContext`\[Delta]r$ = 
+         Rationalize[$CellContext`\[Delta]$$, 0]; $CellContext`\[Epsilon]r$ = 
+         Rationalize[$CellContext`\[Epsilon]$$, 0]; $CellContext`mr$ = 
+         Rationalize[$CellContext`m$$, 0]; $CellContext`s1$ = 
          ReplaceAll[{$CellContext`b1$$, $CellContext`b2$$, $CellContext`b3$$, \
 $CellContext`b4$$, $CellContext`b5$$}, $CellContext`rules$]; \
 $CellContext`s1Name$$ = $CellContext`StrategyName[$CellContext`s1$]; \
@@ -793,26 +785,27 @@ $CellContext`s2$ =
          ReplaceAll[{$CellContext`o1$$, $CellContext`o2$$, $CellContext`o3$$, \
 $CellContext`o4$$, $CellContext`o5$$}, $CellContext`rules$]; \
 $CellContext`s2Name$$ = $CellContext`StrategyName[$CellContext`s2$]; \
-$CellContext`update$$; $CellContext`payoffs$ = {$CellContext`a11$$, \
-$CellContext`a12$$, $CellContext`a21$$, $CellContext`a22$$}; \
-$CellContext`payoffMin$ = Min[$CellContext`payoffs$]; $CellContext`payoffMax$ = 
+$CellContext`update$$; $CellContext`payoffs$ = 
+         Rationalize[{$CellContext`a11$$, $CellContext`a12$$, \
+$CellContext`a21$$, $CellContext`a22$$}, 0]; $CellContext`payoffMin$ = 
+         Min[$CellContext`payoffs$]; $CellContext`payoffMax$ = 
          Max[$CellContext`payoffs$]; $CellContext`payoffSpan$ = 
          Max[$CellContext`payoffMax$ - $CellContext`payoffMin$, 
            1]; $CellContext`height$ = $CellContext`payoffMin$ - 
           0.075 $CellContext`payoffSpan$; $CellContext`L$ = \
 $CellContext`Ls[$CellContext`s1$, $CellContext`s2$, \
-$CellContext`\[Epsilon]$$, $CellContext`\[Delta]$$]; $CellContext`FMatrix$ = {{
+$CellContext`\[Epsilon]r$, $CellContext`\[Delta]r$]; $CellContext`FMatrix$ = {{
             $CellContext`F[$CellContext`s1$, $CellContext`s1$, $CellContext`\
-\[Epsilon]$$, $CellContext`\[Delta]$$, $CellContext`payoffs$], 
+\[Epsilon]r$, $CellContext`\[Delta]r$, $CellContext`payoffs$], 
             $CellContext`F[$CellContext`s1$, $CellContext`s2$, $CellContext`\
-\[Epsilon]$$, $CellContext`\[Delta]$$, $CellContext`payoffs$]}, {
+\[Epsilon]r$, $CellContext`\[Delta]r$, $CellContext`payoffs$]}, {
             $CellContext`F[$CellContext`s2$, $CellContext`s1$, $CellContext`\
-\[Epsilon]$$, $CellContext`\[Delta]$$, $CellContext`payoffs$], 
+\[Epsilon]r$, $CellContext`\[Delta]r$, $CellContext`payoffs$], 
             $CellContext`F[$CellContext`s2$, $CellContext`s2$, $CellContext`\
-\[Epsilon]$$, $CellContext`\[Delta]$$, $CellContext`payoffs$]}}; \
+\[Epsilon]r$, $CellContext`\[Delta]r$, $CellContext`payoffs$]}}; \
 $CellContext`arrowStarts$ = If[$CellContext`step$$ > 1, {}, 
            Range[0, 1, $CellContext`step$$]]; $CellContext`arrowChanges$ = 
-         Map[$CellContext`ChangeInX1[#, $CellContext`m$$, $CellContext`L$, \
+         Map[$CellContext`ChangeInX1[#, $CellContext`mr$, $CellContext`L$, \
 $CellContext`FMatrix$]& , $CellContext`arrowStarts$]; \
 $CellContext`maxArrowLength$ = $CellContext`lengthArrows$$ 
           Min[0.8 $CellContext`step$$, 0.1]; $CellContext`fastestArrow$ = Max[
@@ -827,7 +820,7 @@ $CellContext`maxArrowLength$ (#2/$CellContext`fastestArrow$), \
 $CellContext`height$}}]}]& , {$CellContext`arrowStarts$, \
 $CellContext`arrowChanges$}]; $CellContext`rest$$ = 
          Reduce[{$CellContext`ExpectedChange[$CellContext`x1$, \
-$CellContext`m$$, $CellContext`L$, $CellContext`FMatrix$] == 0, 
+$CellContext`mr$, $CellContext`L$, $CellContext`FMatrix$] == 0, 
             0 <= $CellContext`x1$ <= 1}, $CellContext`x1$, 
            Reals]; $CellContext`restBranches$ = 
          If[$CellContext`rest$$ === False, {}, 
@@ -853,10 +846,10 @@ $CellContext`restRegions$$]; $CellContext`everyStateRests$ =
             0, 1}}]; $CellContext`restPointTypes$$ = \
 $CellContext`RestPointTypes[$CellContext`restPoints$$, 
            
-           Flatten[$CellContext`restBounds$], $CellContext`m$$, \
+           Flatten[$CellContext`restBounds$], $CellContext`mr$, \
 $CellContext`L$, $CellContext`FMatrix$]; $CellContext`restEigen$$ = \
 $CellContext`RestPointEigenvalues[$CellContext`restPoints$$, \
-$CellContext`m$$, $CellContext`L$, $CellContext`FMatrix$]; \
+$CellContext`mr$, $CellContext`L$, $CellContext`FMatrix$]; \
 $CellContext`restPools$$ = 
          Map[$CellContext`PoolFromPopGivenL[#, $CellContext`L$]& , \
 $CellContext`restPoints$$]; $CellContext`fontSize$ = 
@@ -994,8 +987,7 @@ $CellContext`restPointTypes$$]}], {
          None}, {{$CellContext`a21$$, 4}, ControlType -> 
          None}, {{$CellContext`a22$$, 1}, ControlType -> 
          None}, {{$CellContext`gameName$$, "Prisoner's Dilemma"}, ControlType -> 
-         None}, {{$CellContext`\[Delta]$$, 
-          Rational[9, 10]}, ControlType -> 
+         None}, {{$CellContext`\[Delta]$$, 0.9}, ControlType -> 
          None}, {{$CellContext`\[Epsilon]$$, 0}, ControlType -> 
          None}, {{$CellContext`m$$, 0}, ControlType -> 
          None}, {{$CellContext`lengthArrows$$, 1}, ControlType -> 
@@ -1223,21 +1215,15 @@ $CellContext`ForceNumber[#])& ], Number, FieldSize -> 3]& ], ControlPlacement ->
             Center]}}, Alignment -> Left, Spacings -> {0, 0}], Delimiter, 
         Style[
         "Probability of continuation", Bold, 
-         Medium], {{$CellContext`\[Delta]$$, 
-          Rational[9, 10]}, 
-         Rational[1, 100], 
-         Rational[99, 100], 
-         Rational[1, 100], 
+         Medium], {{$CellContext`\[Delta]$$, 0.9}, 0.001, 0.999, 0.001, 
          Dynamic[Row[{
             Manipulator[
              SlotSequence[1]], "  ", 
             Dynamic[
-             Round[$CellContext`\[Delta]$$, 0.0001]]}]& ]}, Delimiter, 
+             Round[$CellContext`\[Delta]$$, 0.001]]}]& ]}, Delimiter, 
         Style[
         "Probability of action error", Bold, 
-         Medium], {{$CellContext`\[Epsilon]$$, 0}, 0, 
-         Rational[1, 2], 
-         Rational[1, 10000], 
+         Medium], {{$CellContext`\[Epsilon]$$, 0}, 0, 0.5, 0.0001, 
          Dynamic[Row[{
             Manipulator[
              SlotSequence[1]], "  ", 
@@ -1245,9 +1231,7 @@ $CellContext`ForceNumber[#])& ], Number, FieldSize -> 3]& ], ControlPlacement ->
              Round[$CellContext`\[Epsilon]$$, 0.0001]]}]& ]}, Delimiter, 
         Style[
         "Probability of experimentation", Bold, 
-         Medium], {{$CellContext`m$$, 0, "\[Mu]"}, 0, 
-         Rational[1, 2], 
-         Rational[1, 10000], 
+         Medium], {{$CellContext`m$$, 0, "\[Mu]"}, 0, 0.5, 0.0001, 
          Dynamic[Row[{
             Manipulator[
              SlotSequence[1]], "  ", 
@@ -1676,7 +1660,6 @@ $CellContext`Replicator[
          Pattern[$CellContext`\[CapitalPi], 
           Blank[]]] := 
        Module[{$CellContext`avgPayoff = 
-          
           Dot[$CellContext`x, $CellContext`\[CapitalPi]]}, $CellContext`x \
 $CellContext`\[CapitalPi] - $CellContext`avgPayoff $CellContext`x], \
 $CellContext`RestPointTypes[
@@ -1769,6 +1752,7 @@ $CellContext`L11 $CellContext`q + $CellContext`Lx (
 $CellContext`q + $CellContext`L22 (
              1 - $CellContext`q); $CellContext`G = $CellContext`y \
 ($CellContext`q $CellContext`aRow + (
+               
                1 - $CellContext`q) $CellContext`bRow) - $CellContext`q \
 $CellContext`aRow; $CellContext`P1 = (
             Part[$CellContext`FMatrix, 1, 1] $CellContext`L11 $CellContext`q + 
@@ -2410,7 +2394,8 @@ $CellContext`L22 - 2 $CellContext`Lx) $CellContext`x1))]]]; $CellContext`Fx[
 $CellContext`p1}, {$CellContext`L11, $CellContext`Lx, $CellContext`L22} = \
 $CellContext`L; $CellContext`p1 = \
 $CellContext`PoolFromPopGivenL[$CellContext`x1, $CellContext`L]; 
-          Dot[Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
+          Dot[
+            Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
                Transpose[{{$CellContext`L11, $CellContext`Lx}, \
 {$CellContext`Lx, $CellContext`L22}}]] $CellContext`FMatrix, {1, 1}]/Dot[
             
@@ -2617,7 +2602,7 @@ $CellContext`restPoints]; $CellContext`RestPointDot[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellLabel->"Out[2]=",ExpressionUUID->"456ee322-c953-43ea-93b4-e66fbd605412"],
+ CellLabel->"Out[5]=",ExpressionUUID->"875abb6e-c3c9-4629-bceb-5ce475374808"],
 
 Cell[CellGroupData[{
 
@@ -2915,9 +2900,20 @@ Cell[BoxData[
        "arrowStarts", ",", "arrowChanges", ",", "fastestArrow", ",", 
        "maxArrowLength", ",", "restBranches", ",", "restPointsX", ",", 
        "restBounds", ",", "everyStateRests", ",", "x1", ",", "height", ",", 
-       "payoffMin", ",", "payoffMax", ",", "payoffSpan", ",", "fontSize"}], 
-      "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       "payoffMin", ",", "payoffMax", ",", "payoffSpan", ",", "fontSize", ",",
+        "\[Delta]r", ",", "\[Epsilon]r", ",", "mr"}], "}"}], ",", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
      RowBox[{
+      RowBox[{"\[Delta]r", "=", 
+       RowBox[{"Rationalize", "[", 
+        RowBox[{"\[Delta]", ",", "0"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"\[Epsilon]r", "=", 
+       RowBox[{"Rationalize", "[", 
+        RowBox[{"\[Epsilon]", ",", "0"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"mr", "=", 
+       RowBox[{"Rationalize", "[", 
+        RowBox[{"m", ",", "0"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      "\[IndentingNewLine]", 
       RowBox[{"s1", "=", 
        RowBox[{
         RowBox[{"{", 
@@ -2939,9 +2935,11 @@ Cell[BoxData[
          "the", " ", "\"\<update\>\"", " ", "button", " ", "work"}], " ", 
        "*)"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
       RowBox[{"payoffs", "=", 
-       RowBox[{"{", 
-        RowBox[{"a11", ",", "a12", ",", "a21", ",", "a22"}], "}"}]}], ";", 
-      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{"Rationalize", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"a11", ",", "a12", ",", "a21", ",", "a22"}], "}"}], ",", 
+         "0"}], "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
       RowBox[{"(*", " ", 
        RowBox[{
        "The", " ", "phase", " ", "line", " ", "is", " ", "drawn", " ", 
@@ -2975,7 +2973,7 @@ Cell[BoxData[
       "\[IndentingNewLine]", 
       RowBox[{"L", "=", 
        RowBox[{"Ls", "[", 
-        RowBox[{"s1", ",", "s2", ",", "\[Epsilon]", ",", "\[Delta]"}], 
+        RowBox[{"s1", ",", "s2", ",", "\[Epsilon]r", ",", "\[Delta]r"}], 
         "]"}]}], ";", "\[IndentingNewLine]", 
       RowBox[{"FMatrix", "=", 
        RowBox[{"{", 
@@ -2984,25 +2982,25 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"F", "[", 
             RowBox[{"s1", ",", "s1", ",", 
-             StyleBox["\[Epsilon]",
-              FontSlant->"Italic"], ",", "\[Delta]", ",", "payoffs"}], "]"}], 
-           ",", 
+             StyleBox["\[Epsilon]r",
+              FontSlant->"Italic"], ",", "\[Delta]r", ",", "payoffs"}], "]"}],
+            ",", 
            RowBox[{"F", "[", 
             RowBox[{"s1", ",", "s2", ",", 
-             StyleBox["\[Epsilon]",
-              FontSlant->"Italic"], ",", "\[Delta]", ",", "payoffs"}], 
+             StyleBox["\[Epsilon]r",
+              FontSlant->"Italic"], ",", "\[Delta]r", ",", "payoffs"}], 
             "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
          RowBox[{"{", 
           RowBox[{
            RowBox[{"F", "[", 
             RowBox[{"s2", ",", "s1", ",", 
-             StyleBox["\[Epsilon]",
-              FontSlant->"Italic"], ",", "\[Delta]", ",", "payoffs"}], "]"}], 
-           ",", 
+             StyleBox["\[Epsilon]r",
+              FontSlant->"Italic"], ",", "\[Delta]r", ",", "payoffs"}], "]"}],
+            ",", 
            RowBox[{"F", "[", 
             RowBox[{"s2", ",", "s2", ",", 
-             StyleBox["\[Epsilon]",
-              FontSlant->"Italic"], ",", "\[Delta]", ",", "payoffs"}], 
+             StyleBox["\[Epsilon]r",
+              FontSlant->"Italic"], ",", "\[Delta]r", ",", "payoffs"}], 
             "]"}]}], "}"}]}], "}"}]}], ";", "\[IndentingNewLine]", 
       "\[IndentingNewLine]", 
       RowBox[{"(*", " ", 
@@ -3037,7 +3035,7 @@ Cell[BoxData[
         RowBox[{
          RowBox[{
           RowBox[{"ChangeInX1", "[", 
-           RowBox[{"#", ",", "m", ",", "L", ",", "FMatrix"}], "]"}], "&"}], ",",
+           RowBox[{"#", ",", "mr", ",", "L", ",", "FMatrix"}], "]"}], "&"}], ",",
           "arrowStarts"}], "]"}]}], ";", "\[IndentingNewLine]", 
       "\[IndentingNewLine]", 
       RowBox[{"(*", " ", 
@@ -3111,8 +3109,8 @@ Cell[BoxData[
           RowBox[{
            RowBox[{
             RowBox[{"ExpectedChange", "[", 
-             RowBox[{"x1", ",", "m", ",", "L", ",", "FMatrix"}], "]"}], "==", 
-            "0"}], ",", 
+             RowBox[{"x1", ",", "mr", ",", "L", ",", "FMatrix"}], "]"}], "==",
+             "0"}], ",", 
            RowBox[{"0", "<=", "x1", "<=", "1"}]}], "}"}], ",", "x1", ",", 
          "Reals"}], "]"}]}], ";", "\[IndentingNewLine]", 
       RowBox[{"(*", " ", 
@@ -3225,12 +3223,12 @@ Cell[BoxData[
       RowBox[{"restPointTypes", "=", 
        RowBox[{"RestPointTypes", "[", 
         RowBox[{"restPoints", ",", 
-         RowBox[{"Flatten", "[", "restBounds", "]"}], ",", "m", ",", "L", ",",
+         RowBox[{"Flatten", "[", "restBounds", "]"}], ",", "mr", ",", "L", ",",
           "FMatrix"}], "]"}]}], ";", "\[IndentingNewLine]", 
       RowBox[{"restEigen", "=", 
        RowBox[{"RestPointEigenvalues", "[", 
-        RowBox[{"restPoints", ",", "m", ",", "L", ",", "FMatrix"}], "]"}]}], ";",
-       "\[IndentingNewLine]", 
+        RowBox[{"restPoints", ",", "mr", ",", "L", ",", "FMatrix"}], "]"}]}], 
+      ";", "\[IndentingNewLine]", 
       RowBox[{"restPools", "=", 
        RowBox[{"Map", "[", 
         RowBox[{
@@ -3727,8 +3725,7 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"\[Delta]", ",", 
-       RowBox[{"9", "/", "10"}]}], "}"}], ",", 
+      RowBox[{"\[Delta]", ",", "0.9"}], "}"}], ",", 
      RowBox[{"ControlType", "\[Rule]", "None"}]}], "}"}], ",", 
    "\[IndentingNewLine]", 
    RowBox[{"{", 
@@ -4468,11 +4465,8 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"\[Delta]", ",", 
-       RowBox[{"9", "/", "10"}]}], "}"}], ",", 
-     RowBox[{"1", "/", "100"}], ",", 
-     RowBox[{"99", "/", "100"}], ",", 
-     RowBox[{"1", "/", "100"}], ",", 
+      RowBox[{"\[Delta]", ",", "0.9"}], "}"}], ",", "0.001", ",", "0.999", ",",
+      "0.001", ",", 
      RowBox[{
       RowBox[{"Row", "[", 
        RowBox[{"{", 
@@ -4480,7 +4474,7 @@ Cell[BoxData[
          RowBox[{"Manipulator", "[", "##", "]"}], ",", "\"\<  \>\"", ",", 
          RowBox[{"Dynamic", "@", 
           RowBox[{"Round", "[", 
-           RowBox[{"\[Delta]", ",", "0.0001"}], "]"}]}]}], "}"}], "]"}], 
+           RowBox[{"\[Delta]", ",", "0.001"}], "]"}]}]}], "}"}], "]"}], 
       "&"}]}], "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
    "Delimiter", ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"Style", "[", 
@@ -4489,9 +4483,8 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
-      RowBox[{"\[Epsilon]", ",", "0"}], "}"}], ",", "0", ",", 
-     RowBox[{"1", "/", "2"}], ",", 
-     RowBox[{"1", "/", "10000"}], ",", 
+      RowBox[{"\[Epsilon]", ",", "0"}], "}"}], ",", "0", ",", "0.5", ",", 
+     "0.0001", ",", 
      RowBox[{
       RowBox[{"Row", "[", 
        RowBox[{"{", 
@@ -4509,8 +4502,7 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"{", 
       RowBox[{"m", ",", "0", ",", "\"\<\[Mu]\>\""}], "}"}], ",", "0", ",", 
-     RowBox[{"1", "/", "2"}], ",", 
-     RowBox[{"1", "/", "10000"}], ",", 
+     "0.5", ",", "0.0001", ",", 
      RowBox[{
       RowBox[{"Row", "[", 
        RowBox[{"{", 
@@ -5912,9 +5904,8 @@ error \[Epsilon] = \>\"", "<>",
                     RowBox[{"{", 
                     RowBox[{"L11", ",", "Lx"}], "}"}], ",", 
                     RowBox[{"{", 
-                    RowBox[{"Lx", ",", "L22"}], "}"}]}], "}"}], 
-                  "\[Transpose]"}]}], ")"}], "\[Transpose]"}], "*", 
-              "FMatrix"}], ")"}], ".", 
+                    RowBox[{"Lx", ",", "L22"}], "}"}]}], "}"}], "\[Transpose]"}]\
+}], ")"}], "\[Transpose]"}], "*", "FMatrix"}], ")"}], ".", 
             RowBox[{"{", 
              RowBox[{"1", ",", "1"}], "}"}]}], "/", 
            RowBox[{"(", 
@@ -6629,9 +6620,8 @@ error \[Epsilon] = \>\"", "<>",
            RowBox[{"1", "->", "\"\<D\>\""}], ",", 
            RowBox[{"2", "->", "\"\<L\>\""}]}], "}"}]}], "]"}]}], ";"}], 
      "\[IndentingNewLine]", ")"}]}]}], "\[IndentingNewLine]", "]"}]], "Input",
- CellLabel->"In[2]:=",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
+ CellLabel->"In[5]:=",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
 }, Closed]]
-}, Open  ]]
 },
 ScreenStyleEnvironment->"Working",
 CellGrouping->Manual,
@@ -6660,71 +6650,67 @@ Cell[CellGroupData[{
 Cell[576, 22, 164, 3, 117, "Title",ExpressionUUID->"be2ab95f-49ca-4d64-983e-6549390d65ef"],
 Cell[743, 27, 437, 14, 45, "Subtitle",ExpressionUUID->"c414d9db-7737-4bde-8abd-eaa0928aedb2"]
 }, Open  ]],
+Cell[1195, 44, 124236, 2560, 783, "Output",ExpressionUUID->"875abb6e-c3c9-4629-bceb-5ce475374808"],
 Cell[CellGroupData[{
-Cell[1217, 46, 124293, 2573, 783, "Output",ExpressionUUID->"456ee322-c953-43ea-93b4-e66fbd605412"],
-Cell[CellGroupData[{
-Cell[125535, 2623, 146, 3, 90, "Section",ExpressionUUID->"e5b48c76-9ef9-435c-93ae-347850a12596",
+Cell[125456, 2608, 146, 3, 90, "Section",ExpressionUUID->"e5b48c76-9ef9-435c-93ae-347850a12596",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[125684, 2628, 280, 4, 70, "Text",ExpressionUUID->"8c845bcb-a751-4dec-8482-ce147cb1ad0b"],
+Cell[125605, 2613, 280, 4, 70, "Text",ExpressionUUID->"8c845bcb-a751-4dec-8482-ce147cb1ad0b"],
 Cell[CellGroupData[{
-Cell[125989, 2636, 87, 0, 70, "Subsection",ExpressionUUID->"590dddd8-31a9-4c5f-b4c8-2bf175fb5cbb"],
+Cell[125910, 2621, 87, 0, 70, "Subsection",ExpressionUUID->"590dddd8-31a9-4c5f-b4c8-2bf175fb5cbb"],
 Cell[CellGroupData[{
-Cell[126101, 2640, 87, 0, 70, "Subsubsection",ExpressionUUID->"c076fe37-74af-4c6c-9752-2049e3ce6a44"],
-Cell[126191, 2642, 843, 18, 70, "Text",ExpressionUUID->"7d6bdaef-365b-4320-ac7c-966c6db12e1c"]
+Cell[126022, 2625, 87, 0, 70, "Subsubsection",ExpressionUUID->"c076fe37-74af-4c6c-9752-2049e3ce6a44"],
+Cell[126112, 2627, 843, 18, 70, "Text",ExpressionUUID->"7d6bdaef-365b-4320-ac7c-966c6db12e1c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[127071, 2665, 90, 0, 70, "Subsubsection",ExpressionUUID->"2eaed39b-5511-4ec6-91fc-673e4fd1cbe8"],
-Cell[127164, 2667, 176, 2, 70, "Text",ExpressionUUID->"43be6ad7-59cb-434b-aebd-390f8849047f"],
-Cell[127343, 2671, 284, 3, 70, "Item",ExpressionUUID->"81895113-ea99-4768-8374-34d1c25411bc"],
-Cell[127630, 2676, 251, 3, 70, "Item",ExpressionUUID->"6816733d-a258-49e1-93e7-234ff6e5e299"],
-Cell[127884, 2681, 214, 2, 70, "Subitem",ExpressionUUID->"52dc2971-0320-4945-ad8e-b742af5bf4ca"],
-Cell[128101, 2685, 214, 2, 70, "Subitem",ExpressionUUID->"98ed99d6-b4eb-4137-970f-51c7a4573dfe"],
-Cell[128318, 2689, 222, 2, 70, "Subitem",ExpressionUUID->"8dcab4ef-85dc-4142-9d80-a1cf4986801b"],
-Cell[128543, 2693, 278, 3, 70, "Item",ExpressionUUID->"8f300e86-53bd-4204-870e-3fc7abb719d3"],
-Cell[128824, 2698, 274, 3, 70, "Item",ExpressionUUID->"ca3b8f61-65f3-4408-aaa0-0b2432880027"],
-Cell[129101, 2703, 230, 2, 70, "Item",ExpressionUUID->"9ed479f3-6a45-4384-a848-ba0ebda4f1af"],
-Cell[129334, 2707, 654, 9, 70, "Text",ExpressionUUID->"6d9bfa5c-7bc9-47bc-ae71-759b6ce57154"]
+Cell[126992, 2650, 90, 0, 70, "Subsubsection",ExpressionUUID->"2eaed39b-5511-4ec6-91fc-673e4fd1cbe8"],
+Cell[127085, 2652, 176, 2, 70, "Text",ExpressionUUID->"43be6ad7-59cb-434b-aebd-390f8849047f"],
+Cell[127264, 2656, 284, 3, 70, "Item",ExpressionUUID->"81895113-ea99-4768-8374-34d1c25411bc"],
+Cell[127551, 2661, 251, 3, 70, "Item",ExpressionUUID->"6816733d-a258-49e1-93e7-234ff6e5e299"],
+Cell[127805, 2666, 214, 2, 70, "Subitem",ExpressionUUID->"52dc2971-0320-4945-ad8e-b742af5bf4ca"],
+Cell[128022, 2670, 214, 2, 70, "Subitem",ExpressionUUID->"98ed99d6-b4eb-4137-970f-51c7a4573dfe"],
+Cell[128239, 2674, 222, 2, 70, "Subitem",ExpressionUUID->"8dcab4ef-85dc-4142-9d80-a1cf4986801b"],
+Cell[128464, 2678, 278, 3, 70, "Item",ExpressionUUID->"8f300e86-53bd-4204-870e-3fc7abb719d3"],
+Cell[128745, 2683, 274, 3, 70, "Item",ExpressionUUID->"ca3b8f61-65f3-4408-aaa0-0b2432880027"],
+Cell[129022, 2688, 230, 2, 70, "Item",ExpressionUUID->"9ed479f3-6a45-4384-a848-ba0ebda4f1af"],
+Cell[129255, 2692, 654, 9, 70, "Text",ExpressionUUID->"6d9bfa5c-7bc9-47bc-ae71-759b6ce57154"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[130025, 2721, 177, 3, 70, "Subsubsection",ExpressionUUID->"5985c2db-a143-429f-80ca-2bfedd227236",
+Cell[129946, 2706, 177, 3, 70, "Subsubsection",ExpressionUUID->"5985c2db-a143-429f-80ca-2bfedd227236",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[130205, 2726, 435, 0, 70, "Text",ExpressionUUID->"cd4d2de9-ce08-40b7-86bc-0f829db4301b"]
+Cell[130126, 2711, 435, 0, 70, "Text",ExpressionUUID->"cd4d2de9-ce08-40b7-86bc-0f829db4301b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[130677, 2731, 175, 3, 70, "Subsubsection",ExpressionUUID->"c31057d9-c246-4446-9322-91110e3310ce",
+Cell[130598, 2716, 175, 3, 70, "Subsubsection",ExpressionUUID->"c31057d9-c246-4446-9322-91110e3310ce",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[130855, 2736, 991, 19, 70, "Text",ExpressionUUID->"4b87dbdd-2993-4142-a774-6fd50bd07639"]
+Cell[130776, 2721, 991, 19, 70, "Text",ExpressionUUID->"4b87dbdd-2993-4142-a774-6fd50bd07639"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[131883, 2760, 175, 3, 70, "Subsubsection",ExpressionUUID->"bfaf77e0-e6d2-4970-b577-864e9e9975b4",
+Cell[131804, 2745, 175, 3, 70, "Subsubsection",ExpressionUUID->"bfaf77e0-e6d2-4970-b577-864e9e9975b4",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[132061, 2765, 645, 16, 70, "Text",ExpressionUUID->"7a73b3c6-6ad5-40f9-b61d-cc385c114f05"],
-Cell[132709, 2783, 917, 28, 70, "Text",ExpressionUUID->"dc6836c9-62ff-4dcf-ba8e-ccd844a6dd73"]
+Cell[131982, 2750, 645, 16, 70, "Text",ExpressionUUID->"7a73b3c6-6ad5-40f9-b61d-cc385c114f05"],
+Cell[132630, 2768, 917, 28, 70, "Text",ExpressionUUID->"dc6836c9-62ff-4dcf-ba8e-ccd844a6dd73"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[133663, 2816, 145, 3, 70, "Subsubsection",ExpressionUUID->"bed87209-639e-4e3a-80bb-89dca27c294f",
+Cell[133584, 2801, 145, 3, 70, "Subsubsection",ExpressionUUID->"bed87209-639e-4e3a-80bb-89dca27c294f",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[133811, 2821, 1008, 11, 70, "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
+Cell[133732, 2806, 1008, 11, 70, "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[134868, 2838, 142, 3, 70, "Subsection",ExpressionUUID->"597b3f87-ed10-4d79-b4a4-749e420985f7",
+Cell[134789, 2823, 142, 3, 70, "Subsection",ExpressionUUID->"597b3f87-ed10-4d79-b4a4-749e420985f7",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[135013, 2843, 2795, 0, 70, "Text",ExpressionUUID->"6b7ccf26-cf8a-48fc-aa7a-33705c52788c"]
+Cell[134934, 2828, 2795, 0, 70, "Text",ExpressionUUID->"6b7ccf26-cf8a-48fc-aa7a-33705c52788c"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[137857, 2849, 88, 0, 51, "Section",ExpressionUUID->"55447b59-612e-4591-8e42-22aa94d55bf5"],
-Cell[137948, 2851, 2066, 42, 70, "Text",ExpressionUUID->"3e570553-cd0b-47f0-bf9b-dcd4a5acb375"]
+Cell[137778, 2834, 88, 0, 51, "Section",ExpressionUUID->"55447b59-612e-4591-8e42-22aa94d55bf5"],
+Cell[137869, 2836, 2066, 42, 70, "Text",ExpressionUUID->"3e570553-cd0b-47f0-bf9b-dcd4a5acb375"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[140051, 2898, 85, 0, 51, "Section",ExpressionUUID->"d7fc9b4c-924e-445b-8538-aebcffdbf017"],
-Cell[140139, 2900, 162352, 3731, 17143, "Input",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
+Cell[139972, 2883, 85, 0, 51, "Section",ExpressionUUID->"d7fc9b4c-924e-445b-8538-aebcffdbf017"],
+Cell[140060, 2885, 162722, 3737, 17194, "Input",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
 }, Closed]]
-}, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
