@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    279076,       6084]
-NotebookOptionsPosition[    274306,       5996]
-NotebookOutlinePosition[    274910,       6018]
-CellTagsIndexPosition[    274867,       6015]
+NotebookDataLength[    280629,       6111]
+NotebookOptionsPosition[    275863,       6023]
+NotebookOutlinePosition[    276467,       6045]
+CellTagsIndexPosition[    276424,       6042]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -117,7 +117,7 @@ jvYu1CYLQLb5E9IdM+8/QRqtE2a+C0AR28nWF1zvPwTN0W3gZQxAbLx/2xGF
 7z8uYyOrvSANQMidNeALru8/bm1NS7rzDUAkf+vkBdfvP2ZfyIeF5Q5Af2Ch
 6f//7z+HoFFX//8PQA4i9Co=
                  "]]}, "Charting`Private`Tag#2"]}}, {}}}, {{
-            Arrowheads[0.03], 
+            Arrowheads[0.010797300175769832`], 
             Arrow[{{
                Rational[1, 8], -0.3}, {0.13579730017576983`, -0.3}}]}, {
             Arrowheads[0.03], 
@@ -135,7 +135,7 @@ jvYu1CYLQLb5E9IdM+8/QRqtE2a+C0AR28nWF1zvPwTN0W3gZQxAbLx/2xGF
             Arrowheads[0.03], 
             Arrow[{{
                Rational[3, 4], -0.3}, {0.8056410873176281, -0.3}}]}, {
-            Arrowheads[0.03], 
+            Arrowheads[0.010797300175769829`], 
             Arrow[{{
                Rational[7, 8], -0.3}, {0.8857973001757699, -0.3}}]}}, {}, {{
             EdgeForm[
@@ -325,9 +325,9 @@ jvYu1CYLQLb5E9IdM+8/QRqtE2a+C0AR28nWF1zvPwTN0W3gZQxAbLx/2xGF
     0, $CellContext`o1$$ = "D", $CellContext`o2$$ = "D", $CellContext`o3$$ = 
     "L", $CellContext`o4$$ = "D", $CellContext`o5$$ = 
     "L", $CellContext`rest$$ = 
-    Or[$CellContext`x1$106065 == 0, $CellContext`x1$106065 == 
-     1, $CellContext`x1$106065 == 
-     Rational[1, 6] (3 - 6^Rational[1, 2]), $CellContext`x1$106065 == 
+    Or[$CellContext`x1$1316084 == 0, $CellContext`x1$1316084 == 
+     1, $CellContext`x1$1316084 == 
+     Rational[1, 6] (3 - 6^Rational[1, 2]), $CellContext`x1$1316084 == 
      Rational[1, 6] (3 + 6^Rational[1, 2])], $CellContext`restEigen$$ = {-1, 
      3 (3 + 6^Rational[1, 2])^(-1) (6 + 6^Rational[1, 2])^(-2) (26 + 
       11 6^Rational[1, 2]), 
@@ -702,12 +702,13 @@ $CellContext`restRegions$$], Method -> "Queued"]],
            2}, $CellContext`s1$, $CellContext`s2$, $CellContext`payoffs$, \
 $CellContext`L$, $CellContext`FMatrix$, $CellContext`listOfArrows$, \
 $CellContext`arrowStarts$, $CellContext`arrowChanges$, \
-$CellContext`fastestArrow$, $CellContext`maxArrowLength$, \
-$CellContext`restBranches$, $CellContext`restPointsX$, \
-$CellContext`restBounds$, $CellContext`everyStateRests$, $CellContext`x1$, \
-$CellContext`height$, $CellContext`payoffMin$, $CellContext`payoffMax$, \
-$CellContext`payoffSpan$, $CellContext`fontSize$, $CellContext`\[Delta]r$, \
-$CellContext`\[Epsilon]r$, $CellContext`mr$}, $CellContext`\[Delta]r$ = 
+$CellContext`arrowLengths$, $CellContext`fastestArrow$, \
+$CellContext`maxArrowLength$, $CellContext`restBranches$, \
+$CellContext`restPointsX$, $CellContext`restBounds$, \
+$CellContext`everyStateRests$, $CellContext`x1$, $CellContext`height$, \
+$CellContext`payoffMin$, $CellContext`payoffMax$, $CellContext`payoffSpan$, \
+$CellContext`fontSize$, $CellContext`\[Delta]r$, $CellContext`\[Epsilon]r$, \
+$CellContext`mr$}, $CellContext`\[Delta]r$ = 
          Rationalize[$CellContext`\[Delta]$$, 0]; $CellContext`\[Epsilon]r$ = 
          Rationalize[$CellContext`\[Epsilon]$$, 0]; $CellContext`mr$ = 
          Rationalize[$CellContext`m$$, 0]; $CellContext`s1$ = 
@@ -744,14 +745,17 @@ $CellContext`maxArrowLength$ = $CellContext`lengthArrows$$
           Min[0.8 $CellContext`step$$, 0.1]; $CellContext`fastestArrow$ = Max[
            Append[
             Abs[$CellContext`arrowChanges$], 
-            10.^(-12)]]; $CellContext`listOfArrows$ = 
-         MapThread[If[#2 == 0., Nothing, {
-             Arrowheads[0.03], 
+            10.^(-12)]]; $CellContext`arrowLengths$ = \
+$CellContext`maxArrowLength$ \
+($CellContext`arrowChanges$/$CellContext`fastestArrow$); \
+$CellContext`listOfArrows$ = MapThread[If[#2 == 0., Nothing, {
+             Arrowheads[
+              Min[0.03, 
+               Abs[#2]]], 
              
-             Arrow[{{#, $CellContext`height$}, {# + \
-$CellContext`maxArrowLength$ (#2/$CellContext`fastestArrow$), \
+             Arrow[{{#, $CellContext`height$}, {# + #2, \
 $CellContext`height$}}]}]& , {$CellContext`arrowStarts$, \
-$CellContext`arrowChanges$}]; $CellContext`rest$$ = 
+$CellContext`arrowLengths$}]; $CellContext`rest$$ = 
          Reduce[{$CellContext`ExpectedChange[$CellContext`x1$, \
 $CellContext`mr$, $CellContext`L$, $CellContext`FMatrix$] == 0, 
             0 <= $CellContext`x1$ <= 1}, $CellContext`x1$, 
@@ -1677,7 +1681,6 @@ $CellContext`PoolFromPopGivenL[$CellContext`x1, $CellContext`L];
 {$CellContext`Lx, $CellContext`L22}}]] $CellContext`FMatrix, {1, 1}]/Dot[
            
            Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
-            
             Transpose[{{$CellContext`L11, $CellContext`Lx}, {$CellContext`Lx, \
 $CellContext`L22}}]], {1, 1}]]; $CellContext`Replicator[
          Pattern[$CellContext`x, 
@@ -1896,7 +1899,7 @@ $CellContext`restPoints]; $CellContext`RestPointDot[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellLabel->"Out[1]=",ExpressionUUID->"c211e6b0-350d-4f72-9ab5-9ea35d4f2a09"],
+ CellLabel->"Out[1]=",ExpressionUUID->"7f809ba5-4d21-4bd0-b535-e6fe2e4ff6c6"],
 
 Cell[CellGroupData[{
 
@@ -2108,7 +2111,7 @@ Cell[TextData[{
  " controls the length of the arrows, which show the expected change in the \
 dynamics. Arrows are computed for a grid of states of mesh 1/N, where N is controlled with the setter labeled \[OpenCurlyDoubleQuote]show\[CloseCurlyDoubleQuote], whose possible values are: \[OpenCurlyDoubleQuote]all\[CloseCurlyDoubleQuote] (N=32), \[OpenCurlyDoubleQuote]many\[CloseCurlyDoubleQuote] (N=16), \[OpenCurlyDoubleQuote]some\[CloseCurlyDoubleQuote] (N=8), \
 \[OpenCurlyDoubleQuote]few\[CloseCurlyDoubleQuote] (N=4), and \
-\[OpenCurlyDoubleQuote]none\[CloseCurlyDoubleQuote] (no arrows). The arrows are scaled so that the fastest one on the grid is drawn at the maximum length, so their lengths show the speeds relative to one another rather than on an absolute scale."
+\[OpenCurlyDoubleQuote]none\[CloseCurlyDoubleQuote] (no arrows). The arrows are scaled so that the fastest one on the grid is drawn at the maximum length, so their lengths show the speeds relative to one another rather than on an absolute scale. Each arrow begins at the state it is drawn for and extends in the direction of motion, and its head shrinks with the arrow, so a slow one is drawn small instead of at full size."
 }], "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
 }, Open  ]],
 
@@ -2201,12 +2204,12 @@ Cell[BoxData[
           RowBox[{"\"\<D\>\"", "->", "1"}], ",", 
           RowBox[{"\"\<L\>\"", "->", "2"}]}], "}"}]}], ",", "s1", ",", "s2", ",",
         "payoffs", ",", "L", ",", "FMatrix", ",", "listOfArrows", ",", 
-       "arrowStarts", ",", "arrowChanges", ",", "fastestArrow", ",", 
-       "maxArrowLength", ",", "restBranches", ",", "restPointsX", ",", 
-       "restBounds", ",", "everyStateRests", ",", "x1", ",", "height", ",", 
-       "payoffMin", ",", "payoffMax", ",", "payoffSpan", ",", "fontSize", ",",
-        "\[Delta]r", ",", "\[Epsilon]r", ",", "mr"}], "}"}], ",", 
-     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       "arrowStarts", ",", "arrowChanges", ",", "arrowLengths", ",", 
+       "fastestArrow", ",", "maxArrowLength", ",", "restBranches", ",", 
+       "restPointsX", ",", "restBounds", ",", "everyStateRests", ",", "x1", ",",
+        "height", ",", "payoffMin", ",", "payoffMax", ",", "payoffSpan", ",", 
+       "fontSize", ",", "\[Delta]r", ",", "\[Epsilon]r", ",", "mr"}], "}"}], ",",
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
      RowBox[{
       RowBox[{"\[Delta]r", "=", 
        RowBox[{"Rationalize", "[", 
@@ -2378,6 +2381,29 @@ Cell[BoxData[
           RowBox[{"10.", "^", 
            RowBox[{"-", "12"}]}]}], "]"}], "]"}]}], ";", 
       "\[IndentingNewLine]", 
+      RowBox[{"(*", 
+       RowBox[{
+        RowBox[{
+        "The", " ", "arrowhead", " ", "is", " ", "capped", " ", "at", " ", 
+         "the", " ", "length", " ", "of", " ", "its", " ", "own", " ", 
+         RowBox[{"arrow", ".", " ", "A"}], " ", "fixed", " ", "head", " ", 
+         "longer", " ", "than", " ", "the", " ", "arrow", " ", "is", " ", 
+         "drawn", " ", "as", " ", "the", " ", "head", " ", "alone"}], ",", 
+        " ", 
+        RowBox[{
+        "with", " ", "its", " ", "tip", " ", "at", " ", "the", " ", "grid", " ",
+          "point", " ", "and", " ", "its", " ", "body", " ", "over", " ", 
+         "the", " ", "ground", " ", "the", " ", "flow", " ", "has", " ", 
+         "just", " ", "left"}], ",", " ", 
+        RowBox[{
+        "which", " ", "reads", " ", "as", " ", "motion", " ", "in", " ", 
+         "the", " ", "wrong", " ", "place", " ", "beside", " ", "a", " ", 
+         "rest", " ", "point"}], ",", " ", 
+        RowBox[{"where", " ", "the", " ", "arrows", " ", "are", " ", 
+         RowBox[{"shortest", "."}]}]}], "*)"}], 
+      RowBox[{"arrowLengths", "=", 
+       RowBox[{"maxArrowLength", "*", 
+        RowBox[{"arrowChanges", "/", "fastestArrow"}]}]}], ";", 
       RowBox[{"listOfArrows", "=", 
        RowBox[{"MapThread", "[", 
         RowBox[{
@@ -2387,7 +2413,10 @@ Cell[BoxData[
             RowBox[{"#2", "==", "0."}], ",", "Nothing", ",", 
             RowBox[{"{", 
              RowBox[{
-              RowBox[{"Arrowheads", "[", "0.03", "]"}], ",", 
+              RowBox[{"Arrowheads", "[", 
+               RowBox[{"Min", "[", 
+                RowBox[{"0.03", ",", 
+                 RowBox[{"Abs", "[", "#2", "]"}]}], "]"}], "]"}], ",", 
               RowBox[{"Arrow", "[", 
                RowBox[{"{", 
                 RowBox[{
@@ -2395,12 +2424,10 @@ Cell[BoxData[
                   RowBox[{"#1", ",", "height"}], "}"}], ",", 
                  RowBox[{"{", 
                   RowBox[{
-                   RowBox[{"#1", "+", 
-                    RowBox[{"maxArrowLength", "*", 
-                    RowBox[{"#2", "/", "fastestArrow"}]}]}], ",", "height"}], 
-                  "}"}]}], "}"}], "]"}]}], "}"}]}], "]"}], "&"}], ",", 
+                   RowBox[{"#1", "+", "#2"}], ",", "height"}], "}"}]}], "}"}],
+                "]"}]}], "}"}]}], "]"}], "&"}], ",", 
          RowBox[{"{", 
-          RowBox[{"arrowStarts", ",", "arrowChanges"}], "}"}]}], "]"}]}], ";",
+          RowBox[{"arrowStarts", ",", "arrowLengths"}], "}"}]}], "]"}]}], ";",
        "\[IndentingNewLine]", "\[IndentingNewLine]", 
       RowBox[{"(*", " ", 
        RowBox[{
@@ -4897,8 +4924,8 @@ error \[Epsilon] = \>\"", "<>",
           RowBox[{"M", "=", 
            RowBox[{
             RowBox[{"TransitionMatrix", "[", 
-             RowBox[{"s1", ",", "s2", ",", "\[Epsilon]", ",", "\[Delta]"}], 
-             "]"}], "\[Transpose]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+             RowBox[{"s1", ",", "s2", ",", "\[Epsilon]", ",", "\[Delta]"}], "]"}]\
+, "\[Transpose]"}]}], "}"}], ",", "\[IndentingNewLine]", 
          RowBox[{"(*", " ", 
           RowBox[{
           "The", " ", "stationary", " ", "distribution", " ", "is", " ", 
@@ -6021,70 +6048,70 @@ Cell[CellGroupData[{
 Cell[576, 22, 164, 3, 117, "Title",ExpressionUUID->"be2ab95f-49ca-4d64-983e-6549390d65ef"],
 Cell[743, 27, 437, 14, 45, "Subtitle",ExpressionUUID->"c414d9db-7737-4bde-8abd-eaa0928aedb2"]
 }, Open  ]],
-Cell[1195, 44, 91481, 1854, 841, "Output",ExpressionUUID->"c211e6b0-350d-4f72-9ab5-9ea35d4f2a09"],
+Cell[1195, 44, 91632, 1857, 841, "Output",ExpressionUUID->"7f809ba5-4d21-4bd0-b535-e6fe2e4ff6c6"],
 Cell[CellGroupData[{
-Cell[92701, 1902, 146, 3, 90, "Section",ExpressionUUID->"e5b48c76-9ef9-435c-93ae-347850a12596",
+Cell[92852, 1905, 146, 3, 90, "Section",ExpressionUUID->"e5b48c76-9ef9-435c-93ae-347850a12596",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[92850, 1907, 280, 4, 58, "Text",ExpressionUUID->"8c845bcb-a751-4dec-8482-ce147cb1ad0b"],
+Cell[93001, 1910, 280, 4, 70, "Text",ExpressionUUID->"8c845bcb-a751-4dec-8482-ce147cb1ad0b"],
 Cell[CellGroupData[{
-Cell[93155, 1915, 87, 0, 42, "Subsection",ExpressionUUID->"590dddd8-31a9-4c5f-b4c8-2bf175fb5cbb"],
+Cell[93306, 1918, 87, 0, 70, "Subsection",ExpressionUUID->"590dddd8-31a9-4c5f-b4c8-2bf175fb5cbb"],
 Cell[CellGroupData[{
-Cell[93267, 1919, 87, 0, 30, "Subsubsection",ExpressionUUID->"c076fe37-74af-4c6c-9752-2049e3ce6a44"],
-Cell[93357, 1921, 843, 18, 83, "Text",ExpressionUUID->"7d6bdaef-365b-4320-ac7c-966c6db12e1c"]
+Cell[93418, 1922, 87, 0, 70, "Subsubsection",ExpressionUUID->"c076fe37-74af-4c6c-9752-2049e3ce6a44"],
+Cell[93508, 1924, 843, 18, 70, "Text",ExpressionUUID->"7d6bdaef-365b-4320-ac7c-966c6db12e1c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[94237, 1944, 90, 0, 30, "Subsubsection",ExpressionUUID->"2eaed39b-5511-4ec6-91fc-673e4fd1cbe8"],
-Cell[94330, 1946, 176, 2, 36, "Text",ExpressionUUID->"43be6ad7-59cb-434b-aebd-390f8849047f"],
-Cell[94509, 1950, 284, 3, 56, "Item",ExpressionUUID->"81895113-ea99-4768-8374-34d1c25411bc"],
-Cell[94796, 1955, 251, 3, 56, "Item",ExpressionUUID->"6816733d-a258-49e1-93e7-234ff6e5e299"],
-Cell[95050, 1960, 214, 2, 22, "Subitem",ExpressionUUID->"52dc2971-0320-4945-ad8e-b742af5bf4ca"],
-Cell[95267, 1964, 214, 2, 22, "Subitem",ExpressionUUID->"98ed99d6-b4eb-4137-970f-51c7a4573dfe"],
-Cell[95484, 1968, 222, 2, 22, "Subitem",ExpressionUUID->"8dcab4ef-85dc-4142-9d80-a1cf4986801b"],
-Cell[95709, 1972, 278, 3, 56, "Item",ExpressionUUID->"8f300e86-53bd-4204-870e-3fc7abb719d3"],
-Cell[95990, 1977, 274, 3, 56, "Item",ExpressionUUID->"ca3b8f61-65f3-4408-aaa0-0b2432880027"],
-Cell[96267, 1982, 230, 2, 37, "Item",ExpressionUUID->"9ed479f3-6a45-4384-a848-ba0ebda4f1af"],
-Cell[96500, 1986, 654, 9, 103, "Text",ExpressionUUID->"6d9bfa5c-7bc9-47bc-ae71-759b6ce57154"]
+Cell[94388, 1947, 90, 0, 70, "Subsubsection",ExpressionUUID->"2eaed39b-5511-4ec6-91fc-673e4fd1cbe8"],
+Cell[94481, 1949, 176, 2, 70, "Text",ExpressionUUID->"43be6ad7-59cb-434b-aebd-390f8849047f"],
+Cell[94660, 1953, 284, 3, 70, "Item",ExpressionUUID->"81895113-ea99-4768-8374-34d1c25411bc"],
+Cell[94947, 1958, 251, 3, 70, "Item",ExpressionUUID->"6816733d-a258-49e1-93e7-234ff6e5e299"],
+Cell[95201, 1963, 214, 2, 70, "Subitem",ExpressionUUID->"52dc2971-0320-4945-ad8e-b742af5bf4ca"],
+Cell[95418, 1967, 214, 2, 70, "Subitem",ExpressionUUID->"98ed99d6-b4eb-4137-970f-51c7a4573dfe"],
+Cell[95635, 1971, 222, 2, 70, "Subitem",ExpressionUUID->"8dcab4ef-85dc-4142-9d80-a1cf4986801b"],
+Cell[95860, 1975, 278, 3, 70, "Item",ExpressionUUID->"8f300e86-53bd-4204-870e-3fc7abb719d3"],
+Cell[96141, 1980, 274, 3, 70, "Item",ExpressionUUID->"ca3b8f61-65f3-4408-aaa0-0b2432880027"],
+Cell[96418, 1985, 230, 2, 70, "Item",ExpressionUUID->"9ed479f3-6a45-4384-a848-ba0ebda4f1af"],
+Cell[96651, 1989, 654, 9, 70, "Text",ExpressionUUID->"6d9bfa5c-7bc9-47bc-ae71-759b6ce57154"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97191, 2000, 177, 3, 30, "Subsubsection",ExpressionUUID->"5985c2db-a143-429f-80ca-2bfedd227236",
+Cell[97342, 2003, 177, 3, 70, "Subsubsection",ExpressionUUID->"5985c2db-a143-429f-80ca-2bfedd227236",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[97371, 2005, 435, 0, 81, "Text",ExpressionUUID->"cd4d2de9-ce08-40b7-86bc-0f829db4301b"]
+Cell[97522, 2008, 435, 0, 70, "Text",ExpressionUUID->"cd4d2de9-ce08-40b7-86bc-0f829db4301b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97843, 2010, 175, 3, 30, "Subsubsection",ExpressionUUID->"c31057d9-c246-4446-9322-91110e3310ce",
+Cell[97994, 2013, 175, 3, 70, "Subsubsection",ExpressionUUID->"c31057d9-c246-4446-9322-91110e3310ce",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[98021, 2015, 991, 19, 128, "Text",ExpressionUUID->"4b87dbdd-2993-4142-a774-6fd50bd07639"]
+Cell[98172, 2018, 991, 19, 70, "Text",ExpressionUUID->"4b87dbdd-2993-4142-a774-6fd50bd07639"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[99049, 2039, 175, 3, 30, "Subsubsection",ExpressionUUID->"bfaf77e0-e6d2-4970-b577-864e9e9975b4",
+Cell[99200, 2042, 175, 3, 70, "Subsubsection",ExpressionUUID->"bfaf77e0-e6d2-4970-b577-864e9e9975b4",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[99227, 2044, 645, 16, 58, "Text",ExpressionUUID->"7a73b3c6-6ad5-40f9-b61d-cc385c114f05"],
-Cell[99875, 2062, 917, 28, 45, "Text",ExpressionUUID->"dc6836c9-62ff-4dcf-ba8e-ccd844a6dd73"]
+Cell[99378, 2047, 645, 16, 70, "Text",ExpressionUUID->"7a73b3c6-6ad5-40f9-b61d-cc385c114f05"],
+Cell[100026, 2065, 917, 28, 70, "Text",ExpressionUUID->"dc6836c9-62ff-4dcf-ba8e-ccd844a6dd73"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[100829, 2095, 145, 3, 30, "Subsubsection",ExpressionUUID->"bed87209-639e-4e3a-80bb-89dca27c294f",
+Cell[100980, 2098, 145, 3, 70, "Subsubsection",ExpressionUUID->"bed87209-639e-4e3a-80bb-89dca27c294f",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[100977, 2100, 1008, 11, 103, "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
+Cell[101128, 2103, 1186, 11, 70, "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102022, 2116, 157, 3, 30, "Subsubsection",ExpressionUUID->"7c3288be-66d2-48c9-91e2-0e038645dc38",
+Cell[102351, 2119, 157, 3, 70, "Subsubsection",ExpressionUUID->"7c3288be-66d2-48c9-91e2-0e038645dc38",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[102182, 2121, 716, 0, 126, "Text",ExpressionUUID->"cdbe5ae8-ee0d-4694-9900-5fef15f14245"]
+Cell[102511, 2124, 716, 0, 70, "Text",ExpressionUUID->"cdbe5ae8-ee0d-4694-9900-5fef15f14245"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102947, 2127, 142, 3, 42, "Subsection",ExpressionUUID->"597b3f87-ed10-4d79-b4a4-749e420985f7",
+Cell[103276, 2130, 142, 3, 70, "Subsection",ExpressionUUID->"597b3f87-ed10-4d79-b4a4-749e420985f7",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[103092, 2132, 3203, 0, 621, "Text",ExpressionUUID->"6b7ccf26-cf8a-48fc-aa7a-33705c52788c"]
+Cell[103421, 2135, 3203, 0, 70, "Text",ExpressionUUID->"6b7ccf26-cf8a-48fc-aa7a-33705c52788c"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[106344, 2138, 88, 0, 51, "Section",ExpressionUUID->"55447b59-612e-4591-8e42-22aa94d55bf5"],
-Cell[106435, 2140, 2066, 42, 70, "Text",ExpressionUUID->"3e570553-cd0b-47f0-bf9b-dcd4a5acb375"]
+Cell[106673, 2141, 88, 0, 51, "Section",ExpressionUUID->"55447b59-612e-4591-8e42-22aa94d55bf5"],
+Cell[106764, 2143, 2066, 42, 70, "Text",ExpressionUUID->"3e570553-cd0b-47f0-bf9b-dcd4a5acb375"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[108538, 2187, 85, 0, 51, "Section",ExpressionUUID->"d7fc9b4c-924e-445b-8538-aebcffdbf017"],
-Cell[108626, 2189, 165664, 3804, 17526, "Input",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
+Cell[108867, 2190, 85, 0, 51, "Section",ExpressionUUID->"d7fc9b4c-924e-445b-8538-aebcffdbf017"],
+Cell[108955, 2192, 166892, 3828, 17603, "Input",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
 }, Closed]]
 }
 ]
