@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    280629,       6111]
-NotebookOptionsPosition[    275863,       6023]
-NotebookOutlinePosition[    276467,       6045]
-CellTagsIndexPosition[    276424,       6042]
+NotebookDataLength[    315534,       6871]
+NotebookOptionsPosition[    310745,       6783]
+NotebookOutlinePosition[    311349,       6805]
+CellTagsIndexPosition[    311306,       6802]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -52,71 +52,143 @@ Cell[BoxData[
     False, $CellContext`figure$$ = Pane[
      Column[{
        Legended[
-        Graphics[{{{{{{}, {}, 
-              Annotation[{
-                Directive[
-                 Opacity[1.], 
-                 AbsoluteThickness[2], 
-                 GrayLevel[0], 
-                 AbsoluteDashing[{12, 0}]], 
-                Line[CompressedData["
-1:eJwBAQT++yFib1JlAgAAAD8AAAACAAAAEZLygJ9eZj5XX/2AtPi0Pm02l8zF
-hHQ//SEukcetwT8wVu80wISEPxHc2TR6Z9A/KhGTgx3Hjj+SwsWzEAHXPxJm
-G2m9hJQ/HnRqB0zZ3D+PQ20Q7KWZP3LZ86EVC+E/DCG/txrHnj8lW/LgyWnj
-P0R/iK8k9KE/eoW8GE2T5T8DbjEDvISkP/YOUY3Hj+c/EMOd741Mpz8pt2WU
-mYvpPxwYCtxfFKo/Iyw9V5Rg6z8pbXbIMdysP4lQyGj2E+0/NsLitAOkrz9V
-ppFvBKruP6KLp9DqNbE/cZhJnSET8D8ott3G05myP9wdovXQxfA/NAtKs6Vh
-tT+cqrdUoQ3yP661rsL4rbY/P1FWx++a8j8oYBPSS/q3P34q5DqvIfM/HLXc
-8PGSuj9JDAAqqh30P5ZfQQBF37s/BkVebNKT9D8QCqYPmCu9P0uaWOFJBfU/
-BV9vLj7Evz9YC4TQftv1P0LNCTQGhcA/mbCI594+9j8C69tQ7SfBP+YCil/f
-nvY/gSaAirttwj/kS186mVX3P4CdyP1X+cQ/iu0S59+i+D/TlMvADarFP36U
-zh/T9vg/JozOg8Naxj8k6/U0VUj5P8x61AkvvMc/F/HhMJDk+T8ZWOAVBn/K
-P5aYCJ8cBfs/Zo965fAjyz/fz50bYET7P7TGFLXbyMs/3PTLyD+C+z9ONUlU
-sRLNP03X3+0R+vs/ghKyklymzz+ohKi5gtv8P8RMhSAUntI/SG9qc7eO/j9R
-sjBM8FvVP19Wl4OmAQBAxhc5qqDq1z9I2qXlJJ0AQInjBKGLsNo/kpqAm3Y2
-AUA0ry3KSkfdPx2lplJeugFA6ZzVRwDR3z+jq+hRZjMCQHZ4IC/4SOE/FqBQ
-JG+vAkBrooRT2pHiP3JvIUzfHQNAh39KxFn24z8o6B+8TpEDQKjtT19UVOU/
-gMCysq//A0C924MTuZrmPx85VGcyZQRA+XwZFLv85z+LrqPFHdMEQCme3S0n
-R+k/YTd3OAM7BUCAcgOUMK3qPw/DuGogrwVA3NdoJLUM7D+HtI1K0CcGQCy9
-/M2jVO0/KklGGwKjBkA7cLtMFYHtP/EnR/XitAZASiN6y4at7T/gCA03IccG
-QGiJ98hpBu4/hDGo0NvsBkB3PLZH2zLuP8+k47luAAdAhu90xkxf7j8iCYva
-jBQHQKNV8sMvuO4/MdZrc7A+B0D+NqjIKeHuP45Ke7ceUwdAWhhezSMK7z+D
-RxhrTWgHQBHbydYXXO8/3U22/mKVB0BsvH/bEYXvPz3N3mSZrQdAyJ014Auu
-7z9p4g8oNscHQCR/6+QF1+8/PXfGaIjiB0B/YKHp///vP9fCIe///wdAlpfp
-bw==
-                 "]]}, "Charting`Private`Tag#1"], 
-              Annotation[{
-                Directive[
-                 Opacity[1.], 
-                 AbsoluteThickness[2], 
-                 GrayLevel[0], 
-                 Dashing[{Small, Small}]], 
-                Line[CompressedData["
-1:eJwBEQTu+yFib1JlAgAAAEAAAAACAAAAEZLygJ9eZj5u7o0hAADwP202l8zF
-hHQ/DzwSgwQ78D8wVu80wISEP30Sc3u7cfA/EmYbab2ElD9NYGcegdXwP49D
-bRDspZk/apokw6MD8T8MIb+3GseeP9m738bGL/E/A24xA7yEpD+2XWAqGIPx
-PxDDne+NTKc/sGMPYfKt8T8cGArcXxSqP/aK2hFt1/E/NsLitAOkrz+vdIoq
-3CbyPzQLSrOlYbU/4fD+R6i68j8FX28uPsS/P/YPpCUctPM/gJ3I/Vf5xD/n
-p5qiIJT0PxlY4BUGf8o/3LV7RP959T+CErKSXKbPP7pQmEPASfY/xEyFIBSe
-0j/IwgrX0Cf3P1GyMEzwW9U//elBdhAC+D/GFzmqoOrXP6U9wK9s0Pg/ieME
-oYuw2j/lo3ej3LX5PzSvLcpKR90/yBq1i9uT+j/pnNVHANHfPzDuMEpTd/s/
-dnggL/hI4T827kObZXz8P2uihFPakeI/kmrMzAyB/T+Hf0rEWfbjP8R6O+Fb
-s/4/qO1PX1RU5T9cErkU//7/P73bgxO5muY/yKQe9h6sAED5fBkUu/znP/uz
-Sw14gQFAHwFSlwgm6D/eFl2DjJwBQEWFihpWT+g/JdKaESe4AUCRjfsg8aHo
-P/b6GmYF8QFAKZ7dLSdH6T8WAQL8G2oCQLRYolroc+k/Szlr2ciMAkA+E2eH
-qaDpP+R4MEFWsAJAVIjw4Cv66T+K2OVOQ/oCQN9CtQ3tJuo/CQSZqL0gA0Bq
-/Xk6rlPqP0wfYChOSANAgHIDlDCt6j8wirHj85oDQCwfECYh2eo/cpScU2HF
-A0DXyxy4EQXrP+zwMLMh8QNALiU23PJc6z9vvet380wEQNrRQm7jiOs/skYc
-SDZ9BECFfk8A1LTrP9NalmwvrwRA3NdoJLUM7D96Q/V0xRgFQIZUm/myNew/
-9MulktlMBUAw0c3OsF7sP5jJqNfoggVAhMoyeayw7D/x9fVMl/UFQC5HZU6q
-2ew/r1GoW5EyBkDYw5cjqALtP4irss49cgZALL38zaNU7T/2K6rcqPoGQDtw
-u0wVge0/Qb7/9VJKB0BKI3rLhq3tPz3jM1aQngdAWdY4SvjZ7T+muvhe5/cH
-QGiJ98hpBu4/kleBLfZWCEB3PLZH2zLuP7ppbHl4vAhAhu90xkxf7j8YzMtg
-TykJQKNV8sMvuO4/cKhQqH0dCkD+NqjIKeHuP0SvsbOJnApAWhhezSMK7z+3
-jvYu1CYLQLb5E9IdM+8/QRqtE2a+C0AR28nWF1zvPwTN0W3gZQxAbLx/2xGF
-7z8uYyOrvSANQMidNeALru8/bm1NS7rzDUAkf+vkBdfvP2ZfyIeF5Q5Af2Ch
-6f//7z+HoFFX//8PQA4i9Co=
-                 "]]}, "Charting`Private`Tag#2"]}}, {}}}, {{
+        Graphics[{{
+           Annotation[{{{{}, {}, 
+               Annotation[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[2], 
+                  GrayLevel[0], 
+                  AbsoluteDashing[{12, 0}]], 
+                 Line[CompressedData["
+1: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
+KRKvITsxN0fDUqZycm6OIv8D/AOwXQ==
+                  "]]}, "Charting`Private`Tag#1"], 
+               Annotation[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[2], 
+                  GrayLevel[0], 
+                  Dashing[{Small, Small}]], 
+                 Line[CompressedData["
+1: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
+y2z0L+N3x2I=
+                  "]]}, "Charting`Private`Tag#2"]}}, {}}, <|
+            "HighlightElements" -> <|
+              "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+             "LayoutOptions" -> <|
+              "PanelPlotLayout" -> <||>, 
+               "PlotRange" -> {{0., 1.}, {-0.5, 4.}}, 
+               "Frame" -> {{True, True}, {True, True}}, 
+               "AxesOrigin" -> {0, 0}, "ImageSize" -> {360, 360/GoldenRatio}, 
+               "Axes" -> {True, True}, "LabelStyle" -> {FontSize -> 16}, 
+               "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[2], 
+                  GrayLevel[0], 
+                  Dashing[{Small, Small}]], 
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[2], 
+                  GrayLevel[0], 
+                  AbsoluteDashing[{12, 0}]]}, 
+               "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+                   (Identity[#]& )[
+                    Part[#, 1]], 
+                   (Identity[#]& )[
+                    Part[#, 2]]}& ), 
+                 "ScalingFunctions" -> {{Identity, Identity}, {
+                   Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+               False|>, 
+             "Meta" -> <|
+              "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, 
+               "Function" -> Plot, "GroupHighlight" -> False|>|>, 
+            "DynamicHighlight"]}, {{
             Arrowheads[0.010797300175769832`], 
             Arrow[{{
                Rational[1, 8], -0.3}, {0.13579730017576983`, -0.3}}]}, {
@@ -162,6 +234,8 @@ jvYu1CYLQLb5E9IdM+8/QRqtE2a+C0AR28nWF1zvPwTN0W3gZQxAbLx/2xGF
              Scaled[{0.02, 0.03}]]}}}, {
          PlotLabel -> "", DisplayFunction -> Identity, 
           PlotInteractivity :> $PlotInteractivity, DisplayFunction -> 
+          Identity, PlotInteractivity :> $PlotInteractivity, 
+          DefaultBaseStyle -> {"PlotGraphics", "Graphics"}, DisplayFunction -> 
           Identity, Ticks -> {Automatic, Automatic}, AxesOrigin -> {0, 0}, 
           FrameTicks -> {{
             Automatic, {}}, {{{0., "0%"}, {0.25, "25%"}, {0.5, "50%"}, {
@@ -325,9 +399,9 @@ jvYu1CYLQLb5E9IdM+8/QRqtE2a+C0AR28nWF1zvPwTN0W3gZQxAbLx/2xGF
     0, $CellContext`o1$$ = "D", $CellContext`o2$$ = "D", $CellContext`o3$$ = 
     "L", $CellContext`o4$$ = "D", $CellContext`o5$$ = 
     "L", $CellContext`rest$$ = 
-    Or[$CellContext`x1$1316084 == 0, $CellContext`x1$1316084 == 
-     1, $CellContext`x1$1316084 == 
-     Rational[1, 6] (3 - 6^Rational[1, 2]), $CellContext`x1$1316084 == 
+    Or[$CellContext`x1$18667 == 0, $CellContext`x1$18667 == 
+     1, $CellContext`x1$18667 == 
+     Rational[1, 6] (3 - 6^Rational[1, 2]), $CellContext`x1$18667 == 
      Rational[1, 6] (3 + 6^Rational[1, 2])], $CellContext`restEigen$$ = {-1, 
      3 (3 + 6^Rational[1, 2])^(-1) (6 + 6^Rational[1, 2])^(-2) (26 + 
       11 6^Rational[1, 2]), 
@@ -1219,40 +1293,561 @@ $CellContext`bw$$}, Alignment -> Top, ControlPlacement -> Left,
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
-    Initialization:>(($CellContext`ForceNumber[
+    Initialization:>({$CellContext`StrategyName[
+         Pattern[$CellContext`s, 
+          Blank[List]]] := 
+       Switch[$CellContext`s, {0, 0, 2, 0, 2}, "CSL", {1, 1, 2, 1, 2}, 
+         "DSL", {0, 0, 2, 2, 0}, "c0a", {0, 0, 2, 2, 2}, "c0b", {1, 0, 2, 2, 
+         0}, "Leaver", {1, 1, 1, 1, 1}, "Defector", {0, 0, 0, 0, 0}, 
+         "Cooperator", {1, 2, 2, 2, 2}, "Defect&Leave", {0, 0, 1, 1, 0}, 
+         "WSLS", {1, 0, 1, 1, 0}, "nWSLS", {0, 0, 1, 1, 1}, "Grim", {0, 0, 1, 
+         0, 1}, "TFT", {0, 0, 1, 0, 0}, "TFTlike", {1, 0, 2, 1, 0}, 
+         "leaver1", {1, 0, 2, 0, 0}, "leaver3", 
+         Blank[], 
+         $CellContext`ToLetters[$CellContext`s]], $CellContext`ToLetters[
+         Pattern[$CellContext`s, 
+          Blank[List]]] := StringJoin[
+         ReplaceAll[$CellContext`s, {
+          0 -> "C", 1 -> "D", 2 -> "L"}]], $CellContext`Ls[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := {
+         $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s1, \
+$CellContext`s1, $CellContext`\[Epsilon], $CellContext`\[Delta]], 
+         $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s1, \
+$CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]], 
+         $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s2, \
+$CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]]}, \
+$CellContext`ExpectedTimeUntilBreakUp[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := 
+       Module[{$CellContext`P = \
+$CellContext`TransitionMatrixIncludingBreakUp[$CellContext`s1, \
+$CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]], \
+$CellContext`initialDistribution = \
+$CellContext`FirstOutcomeDistribution[$CellContext`s1, $CellContext`s2, \
+$CellContext`\[Epsilon]]}, 
+         Dot[$CellContext`initialDistribution, 
+          Dot[
+           Inverse[IdentityMatrix[4] - Part[$CellContext`P, 
+             Span[2, All], 
+             Span[2, All]]], 
+           Table[1, {4}]]]], $CellContext`TransitionMatrixIncludingBreakUp[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := Module[{$CellContext`allOutcomes = Range[0, 4]}, 
+         Outer[$CellContext`TransitionProb[$CellContext`s1, $CellContext`s2, \
+#, #2, $CellContext`\[Epsilon], $CellContext`\[Delta]]& , \
+$CellContext`allOutcomes, $CellContext`allOutcomes]], \
+$CellContext`TransitionProb[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`o1, 
+          Blank[]], 
+         Pattern[$CellContext`o2, 
+          Blank[]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := 
+       Module[{$CellContext`probBreakup = \
+$CellContext`ProbOfPartnershipBreakup[$CellContext`s1, $CellContext`s2, \
+$CellContext`o1, $CellContext`\[Epsilon], $CellContext`\[Delta]]}, 
+         If[$CellContext`o2 == 0, 
+          If[$CellContext`o1 == 0, 0, $CellContext`probBreakup], 
+          If[$CellContext`o1 == 0, 1, $CellContext`\[Delta]] Part[
+            $CellContext`ProbsOfThe3Actions[$CellContext`s1, $CellContext`o1, \
+$CellContext`\[Epsilon]], 1 + $CellContext`Action1[$CellContext`o2]] Part[
+            $CellContext`ProbsOfThe3Actions[$CellContext`s2, 
+             $CellContext`ReverseOutcome[$CellContext`o1], $CellContext`\
+\[Epsilon]], 
+            1 + $CellContext`Action2[$CellContext`o2]]]], \
+$CellContext`ProbOfPartnershipBreakup[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`outcome, 
+          Blank[]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := 
+       Module[{$CellContext`p1 = $CellContext`ProbOfLeaving[$CellContext`s1, \
+$CellContext`outcome, $CellContext`\[Epsilon]], $CellContext`p2 = \
+$CellContext`ProbOfLeaving[$CellContext`s2, 
+            $CellContext`ReverseOutcome[$CellContext`outcome], $CellContext`\
+\[Epsilon]], $CellContext`pEnd}, $CellContext`pEnd = $CellContext`p1 + \
+$CellContext`p2 - $CellContext`p1 $CellContext`p2; 
+         1 - (1 - $CellContext`pEnd) $CellContext`\[Delta]], \
+$CellContext`ProbOfLeaving[
+         Pattern[$CellContext`s, 
+          Blank[List]], 
+         Pattern[$CellContext`outcome, 
+          Blank[]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]]] := Last[
+         $CellContext`ProbsOfThe3Actions[$CellContext`s, \
+$CellContext`outcome, $CellContext`\[Epsilon]]], \
+$CellContext`ProbsOfThe3Actions[
+         Pattern[$CellContext`s, 
+          Blank[List]], 
+         Pattern[$CellContext`outcome, 
+          Blank[]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]]] := 
+       Module[{$CellContext`actionNoNoise = \
+$CellContext`ActionAfter[$CellContext`s, $CellContext`outcome]}, 
+         Switch[$CellContext`actionNoNoise, 0, {
+          1 - $CellContext`\[Epsilon], $CellContext`\[Epsilon], 0}, 
+          1, {$CellContext`\[Epsilon], 1 - $CellContext`\[Epsilon], 0}, 2, {0,
+           0, 1}]], $CellContext`ActionAfter[
+         Pattern[$CellContext`s, 
+          Blank[List]], 
+         Pattern[$CellContext`outcome, 
+          Blank[]]] := 
+       Part[$CellContext`s, 
+         1 + $CellContext`outcome], $CellContext`ReverseOutcome[
+         Pattern[$CellContext`o, 
+          Blank[]]] := Switch[$CellContext`o, 
+         $CellContext`Outcome[0, 1], 
+         $CellContext`Outcome[1, 0], 
+         $CellContext`Outcome[1, 0], 
+         $CellContext`Outcome[0, 1], 
+         Blank[], $CellContext`o], $CellContext`Outcome[
+         Pattern[$CellContext`a1, 
+          Blank[]], 
+         Pattern[$CellContext`a2, 
+          Blank[]]] := If[
+         And[$CellContext`a1 != 2, $CellContext`a2 != 2], 1 + 
+         2 $CellContext`a1 + $CellContext`a2, 0], $CellContext`Action1[
+         Pattern[$CellContext`o, 
+          Blank[]]] := If[
+         Or[$CellContext`o == $CellContext`Outcome[
+           0, 0], $CellContext`o == $CellContext`Outcome[0, 1]], 0, 
+         1], $CellContext`Action2[
+         Pattern[$CellContext`o, 
+          Blank[]]] := If[
+         Or[$CellContext`o == $CellContext`Outcome[
+           0, 0], $CellContext`o == $CellContext`Outcome[1, 0]], 0, 
+         1], $CellContext`FirstOutcomeDistribution[
+         Pattern[$CellContext`s1, 
+          Blank[]], 
+         Pattern[$CellContext`s2, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 0]] := Flatten[
+         Outer[
+         Times, (1 - $CellContext`\[Epsilon]) 
+           UnitVector[
+            1 + First[$CellContext`s1]] + $CellContext`\[Epsilon] ({1, 1} - 
+            UnitVector[1 + First[$CellContext`s1]]), (
+            1 - $CellContext`\[Epsilon]) 
+           UnitVector[
+            1 + First[$CellContext`s2]] + $CellContext`\[Epsilon] ({1, 1} - 
+            UnitVector[1 + First[$CellContext`s2]])]], $CellContext`F[
+         Pattern[$CellContext`i, 
+          Blank[]], 
+         Pattern[$CellContext`ej, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 0], 
+         Optional[
+          Pattern[$CellContext`\[Delta], 
+           Blank[]], 1], 
+         Optional[
+          Pattern[$CellContext`payoffs, 
+           Blank[]], {3, 0, 4, 1}]] := 
+       Module[{$CellContext`Tij, $CellContext`sequence, \
+$CellContext`initialPhase, $CellContext`cycle, $CellContext`R, \
+$CellContext`S, $CellContext`T, $CellContext`P}, {$CellContext`R, \
+$CellContext`S, $CellContext`T, $CellContext`P} = $CellContext`payoffs; If[
+           And[$CellContext`\[Epsilon] === 0, $CellContext`\[Delta] === 
+            1], {$CellContext`Tij, $CellContext`sequence} = \
+$CellContext`Match[$CellContext`i, $CellContext`ej]; 
+           If[$CellContext`Tij < Infinity, (1/$CellContext`Tij) Sum[
+               $CellContext`Payoff[
+                
+                Part[$CellContext`sequence, $CellContext`t], \
+$CellContext`payoffs], {$CellContext`t, 
+                1, $CellContext`Tij}], {$CellContext`initialPhase, \
+$CellContext`cycle} = $CellContext`sequence; (1/Length[$CellContext`cycle]) 
+              Sum[
+                $CellContext`Payoff[
+                 
+                 Part[$CellContext`cycle, $CellContext`t], \
+$CellContext`payoffs], {$CellContext`t, 1, 
+                 Length[$CellContext`cycle]}]], 
+           
+           Dot[{$CellContext`R, $CellContext`S, $CellContext`T, \
+$CellContext`P}, 
+            $CellContext`AsymptoticDistribution[$CellContext`i, \
+$CellContext`ej, $CellContext`\[Epsilon], $CellContext`\[Delta]]]]], \
+$CellContext`Match[
+         Pattern[$CellContext`s1, 
+          Blank[]], 
+         Pattern[$CellContext`s2, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 0], 
+         Optional[
+          Pattern[$CellContext`\[Delta], 
+           Blank[]], 1], 
+         Optional[
+          Pattern[$CellContext`timesteps, 
+           Blank[]], 10]] := 
+       Module[{$CellContext`a1 = First[$CellContext`s1], $CellContext`a2 = 
+          First[$CellContext`s2], $CellContext`t = 
+          0, $CellContext`sequence, $CellContext`pos, $CellContext`M, \
+$CellContext`initial}, 
+         If[
+          
+          And[$CellContext`\[Epsilon] === 0, $CellContext`\[Delta] === 
+           1], $CellContext`sequence = {
+             $CellContext`Outcome[$CellContext`a1, $CellContext`a2]}; While[
+            
+            And[$CellContext`Outcome[$CellContext`a1, $CellContext`a2] != 
+             0, $CellContext`t < 1000], {$CellContext`a1, $CellContext`a2} = {
+               $CellContext`ActionAfter[$CellContext`s1, 
+                $CellContext`Outcome[$CellContext`a1, $CellContext`a2]], 
+               $CellContext`ActionAfter[$CellContext`s2, 
+                $CellContext`Outcome[$CellContext`a2, $CellContext`a1]]}; If[
+              MemberQ[$CellContext`sequence, 
+               $CellContext`Outcome[$CellContext`a1, $CellContext`a2]], \
+$CellContext`t = Infinity, $CellContext`t = $CellContext`t + 1; Null]; 
+            AppendTo[$CellContext`sequence, 
+              $CellContext`Outcome[$CellContext`a1, $CellContext`a2]]; Null]; 
+          If[$CellContext`t == Infinity, $CellContext`pos = First[
+               FirstPosition[$CellContext`sequence, 
+                $CellContext`Outcome[$CellContext`a1, $CellContext`a2]]]; \
+{$CellContext`t, {
+               Part[$CellContext`sequence, 
+                Span[1, $CellContext`pos - 1]], 
+               Part[$CellContext`sequence, 
+                Span[$CellContext`pos, -2]]}}, {$CellContext`t, 
+             Part[$CellContext`sequence, 
+              Span[
+              1, -2]]}], $CellContext`M = \
+$CellContext`TransitionMatrix[$CellContext`s1, $CellContext`s2, $CellContext`\
+\[Epsilon], $CellContext`\[Delta]]; $CellContext`initial = \
+$CellContext`FirstOutcomeDistribution[$CellContext`s1, $CellContext`s2, \
+$CellContext`\[Epsilon]]; Prepend[
+            Table[
+             Dot[$CellContext`initial, 
+              MatrixPower[$CellContext`M, $CellContext`i]], {$CellContext`i, 
+              1, $CellContext`timesteps}], $CellContext`initial]]], \
+$CellContext`TransitionMatrix[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := 
+       Module[{$CellContext`M, $CellContext`outflow, $CellContext`inflow}, \
+$CellContext`M = \
+$CellContext`TransitionMatrixIncludingBreakUp[$CellContext`s1, \
+$CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]]; \
+$CellContext`outflow = Rest[
+            First[$CellContext`M]]; $CellContext`inflow = First[
+            Transpose[$CellContext`M]]; Map[Rest[
+             Part[$CellContext`M, #]] + 
+           Part[$CellContext`inflow, #] $CellContext`outflow& , 
+           Range[2, 5]]], $CellContext`Payoff[
+         Pattern[$CellContext`o, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`payoffs, 
+           Blank[]], {3, 0, 4, 1}]] := 
+       Module[{$CellContext`R, $CellContext`S, $CellContext`T, \
+$CellContext`P}, {$CellContext`R, $CellContext`S, $CellContext`T, \
+$CellContext`P} = $CellContext`payoffs; 
+         Switch[$CellContext`o, 1, $CellContext`R, 2, $CellContext`S, 
+           3, $CellContext`T, 4, $CellContext`P, 
+           Blank[], "no"]], $CellContext`AsymptoticDistribution[
+         Pattern[$CellContext`s1, 
+          Blank[List]], 
+         Pattern[$CellContext`s2, 
+          Blank[List]], 
+         Pattern[$CellContext`\[Epsilon], 
+          Blank[]], 
+         Pattern[$CellContext`\[Delta], 
+          Blank[]]] := Module[{$CellContext`M = Transpose[
+            $CellContext`TransitionMatrix[$CellContext`s1, $CellContext`s2, \
+$CellContext`\[Epsilon], $CellContext`\[Delta]]]}, 
+         FullSimplify[
+          Normalize[
+           Abs[
+            First[
+             NullSpace[$CellContext`M - IdentityMatrix[
+               Length[$CellContext`M]]]]], Total], 
+          Assumptions -> {
+           0 <= $CellContext`\[Epsilon] <= 1, 0 <= $CellContext`\[Delta] <= 
+            1}]], $CellContext`ChangeInX1[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[List]], 
+         Pattern[$CellContext`FMatrix, 
+          Blank[]]] := Together[
+         First[
+          $CellContext`ExpectedChange[$CellContext`x1, $CellContext`m, \
+$CellContext`L, $CellContext`FMatrix]]], $CellContext`ExpectedChange[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[List]], 
+         Pattern[$CellContext`FMatrix, 
+          Blank[]]] := 
+       Module[{$CellContext`\[CapitalPi]}, $CellContext`\[CapitalPi] = \
+$CellContext`Fx[$CellContext`x1, $CellContext`L, $CellContext`FMatrix]; (
+            1 - $CellContext`m) $CellContext`Replicator[{$CellContext`x1, 
+              1 - $CellContext`x1}, $CellContext`\[CapitalPi]] + \
+$CellContext`m (
+            ConstantArray[1/2, 2] - {$CellContext`x1, 
+             1 - $CellContext`x1})], $CellContext`Fx[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[List]], 
+         Pattern[$CellContext`FMatrix, 
+          Blank[]]] := 
+       Module[{$CellContext`L11, $CellContext`Lx, $CellContext`L22, \
+$CellContext`p1}, {$CellContext`L11, $CellContext`Lx, $CellContext`L22} = \
+$CellContext`L; $CellContext`p1 = \
+$CellContext`PoolFromPopGivenL[$CellContext`x1, $CellContext`L]; 
+         Dot[Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
+              Transpose[{{$CellContext`L11, $CellContext`Lx}, \
+{$CellContext`Lx, $CellContext`L22}}]] $CellContext`FMatrix, {1, 1}]/Dot[
+           
+           Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
+            Transpose[{{$CellContext`L11, $CellContext`Lx}, {$CellContext`Lx, \
+$CellContext`L22}}]], {1, 1}]], $CellContext`PoolFromPopGivenL[
+         Pattern[$CellContext`x1, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[List]]] := 
+       Module[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}, \
+{$CellContext`L11, $CellContext`Lx, $CellContext`L22} = $CellContext`L; 
+         If[Max[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}] - 
+            Min[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}] < 
+           10^(-6), $CellContext`x1, 
+           
+           If[-$CellContext`L11 + $CellContext`Lx + ($CellContext`L11 + \
+$CellContext`L22 - 2 $CellContext`Lx) $CellContext`x1 == 0, 
+            
+            If[$CellContext`Lx + 
+              2 ($CellContext`L22 - $CellContext`Lx) $CellContext`x1 == 
+             0, $CellContext`x1, ($CellContext`x1 \
+$CellContext`L22)/($CellContext`Lx + 
+             2 ($CellContext`L22 - $CellContext`Lx) $CellContext`x1)], \
+($CellContext`Lx + 2 $CellContext`L22 $CellContext`x1 - 
+             2 $CellContext`Lx $CellContext`x1 - 
+             Sqrt[$CellContext`Lx^2 (1 - 2 $CellContext`x1)^2 - 
+              4 $CellContext`L11 $CellContext`L22 (-1 + $CellContext`x1) \
+$CellContext`x1])/(
+            2 (-$CellContext`L11 + $CellContext`Lx + ($CellContext`L11 + \
+$CellContext`L22 - 
+               2 $CellContext`Lx) $CellContext`x1))]]], \
+$CellContext`Replicator[
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`\[CapitalPi], 
+          Blank[]]] := 
+       Module[{$CellContext`avgPayoff = 
+          Dot[$CellContext`x, $CellContext`\[CapitalPi]]}, $CellContext`x \
+$CellContext`\[CapitalPi] - $CellContext`avgPayoff $CellContext`x], \
+$CellContext`RestPointTypes[
+         Pattern[$CellContext`restPoints, 
+          Blank[List]], 
+         Pattern[$CellContext`extraBounds, 
+          Blank[List]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[List]], 
+         Pattern[$CellContext`FMatrix, 
+          Blank[]]] := 
+       Module[{$CellContext`bounds, $CellContext`separators, \
+$CellContext`signs, $CellContext`k, $CellContext`below, $CellContext`above}, 
+         If[$CellContext`restPoints === {}, 
+           Return[{}]]; $CellContext`bounds = DeleteDuplicates[
+            Sort[
+             Join[{0, 1}, $CellContext`restPoints, $CellContext`extraBounds], 
+             Less]]; $CellContext`separators = Table[
+            $CellContext`RationalBetween[
+             Part[$CellContext`bounds, $CellContext`i], 
+             Part[$CellContext`bounds, $CellContext`i + 1]], {$CellContext`i, 
+             Length[$CellContext`bounds] - 1}]; $CellContext`signs = Map[Sign[
+             $CellContext`ChangeInX1[#, $CellContext`m, $CellContext`L, \
+$CellContext`FMatrix]]& , $CellContext`separators]; 
+         Table[$CellContext`k = First[
+              
+              FirstPosition[$CellContext`bounds, $CellContext`r]]; \
+$CellContext`below = If[$CellContext`k > 1, 
+              Part[$CellContext`signs, $CellContext`k - 1], 
+              Null]; $CellContext`above = 
+            If[$CellContext`k <= Length[$CellContext`separators], 
+              Part[$CellContext`signs, $CellContext`k], Null]; 
+           Which[$CellContext`below === Null, 
+             
+             Which[$CellContext`above === -1, "sink", $CellContext`above === 
+              1, "source", True, "undetermined"], $CellContext`above === Null, 
+             
+             Which[$CellContext`below === 1, 
+              "sink", $CellContext`below === -1, "source", True, 
+              "undetermined"], 
+             And[$CellContext`below === 1, $CellContext`above === -1], "sink", 
+             And[$CellContext`below === -1, $CellContext`above === 1], 
+             "source", True, 
+             "undetermined"], {$CellContext`r, $CellContext`restPoints}]], \
+$CellContext`RationalBetween[
+         Pattern[$CellContext`a, 
+          Blank[]], 
+         Pattern[$CellContext`b, 
+          Blank[]]] := 
+       Module[{$CellContext`digits = 40, $CellContext`q = Null}, 
+         While[$CellContext`digits < 2000, $CellContext`q = Rationalize[
+              N[($CellContext`a + $CellContext`b)/2, $CellContext`digits], 0]; 
+           If[
+             TrueQ[
+              Reduce[$CellContext`a < $CellContext`q < $CellContext`b]], 
+             Return[$CellContext`q]]; $CellContext`digits = 
+            2 $CellContext`digits]; ($CellContext`a + $CellContext`b)/
+          2], $CellContext`RestPointEigenvalues[
+         Pattern[$CellContext`restPoints, 
+          Blank[List]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`L, 
+          Blank[List]], 
+         Pattern[$CellContext`FMatrix, 
+          Blank[]]] := 
+       Map[$CellContext`RestPointDerivative[$CellContext`L, \
+$CellContext`FMatrix, $CellContext`m, #, 
+          $CellContext`PoolFromPopGivenL[#, $CellContext`L]]& , \
+$CellContext`restPoints], $CellContext`RestPointDerivative[
+         Pattern[$CellContext`L, 
+          Blank[List]], 
+         Pattern[$CellContext`FMatrix, 
+          Blank[]], 
+         Pattern[$CellContext`m, 
+          Blank[]], 
+         Pattern[$CellContext`x, 
+          Blank[]], 
+         Pattern[$CellContext`p, 
+          Blank[]]] := 
+       Module[{$CellContext`y, $CellContext`q, $CellContext`L11, \
+$CellContext`Lx, $CellContext`L22, $CellContext`aRow, $CellContext`bRow, \
+$CellContext`G, $CellContext`P1, $CellContext`P2, $CellContext`avg, \
+$CellContext`V, $CellContext`gq, $CellContext`val}, {$CellContext`L11, \
+$CellContext`Lx, $CellContext`L22} = $CellContext`L; $CellContext`aRow = \
+$CellContext`L11 $CellContext`q + $CellContext`Lx (
+             1 - $CellContext`q); $CellContext`bRow = $CellContext`Lx \
+$CellContext`q + $CellContext`L22 (
+             1 - $CellContext`q); $CellContext`G = $CellContext`y \
+($CellContext`q $CellContext`aRow + (
+               1 - $CellContext`q) $CellContext`bRow) - $CellContext`q \
+$CellContext`aRow; $CellContext`P1 = (
+            Part[$CellContext`FMatrix, 1, 1] $CellContext`L11 $CellContext`q + 
+            Part[$CellContext`FMatrix, 1, 2] $CellContext`Lx (
+              1 - $CellContext`q))/$CellContext`aRow; $CellContext`P2 = (
+            Part[$CellContext`FMatrix, 2, 1] $CellContext`Lx $CellContext`q + 
+            Part[$CellContext`FMatrix, 2, 2] $CellContext`L22 (
+              1 - $CellContext`q))/$CellContext`bRow; $CellContext`avg = \
+$CellContext`y $CellContext`P1 + (
+             1 - $CellContext`y) $CellContext`P2; $CellContext`V = (
+             1 - $CellContext`m) $CellContext`y ($CellContext`P1 - \
+$CellContext`avg) + $CellContext`m (1/2 - $CellContext`y); $CellContext`gq = 
+          Together[
+            ReplaceAll[
+             
+             D[$CellContext`G, $CellContext`q], {$CellContext`y -> \
+$CellContext`x, $CellContext`q -> $CellContext`p}]]; If[
+           Or[
+            Not[
+             NumericQ[$CellContext`gq]], 
+            TrueQ[$CellContext`gq == 0]], 
+           Return[Indeterminate]]; $CellContext`val = Together[
+            ReplaceAll[
+            D[$CellContext`V, $CellContext`y] - 
+             D[$CellContext`V, $CellContext`q] (
+              D[$CellContext`G, $CellContext`y]/
+              D[$CellContext`G, $CellContext`q]), {$CellContext`y -> \
+$CellContext`x, $CellContext`q -> $CellContext`p}]]; If[
+           NumericQ[$CellContext`val], $CellContext`val, 
+           Indeterminate]], $CellContext`RestPointColor[
+         Pattern[$CellContext`type, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`bw, 
+           Blank[]], False]] := If[$CellContext`bw, 
+         Switch[$CellContext`type, "sink", Black, "source", White, "saddle", 
+          GrayLevel[0.5], "centre", 
+          GrayLevel[0.8], 
+          Blank[], 
+          GrayLevel[0.3]], 
+         Switch[$CellContext`type, "sink", 
+          Darker[Green], "source", Red, 
+          Blank[], Gray]], $CellContext`RestPointLegend[
+         Pattern[$CellContext`types, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`bw, 
+           Blank[]], False]] := Row[
+         Riffle[
+          Map[$CellContext`RestPointTag[#, $CellContext`bw]& , 
+           
+           Select[{"sink", "source", "undetermined"}, 
+            MemberQ[$CellContext`types, #]& ]], 
+          "\[ThickSpace]\[ThickSpace]"]], $CellContext`RestPointTag[
+         Pattern[$CellContext`type, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`bw, 
+           Blank[]], False]] := Row[{
+          $CellContext`RestPointDot[$CellContext`type, $CellContext`bw], 
+          "\[ThinSpace]", 
+          Style[$CellContext`type, 10]}], $CellContext`RestPointDot[
+         Pattern[$CellContext`type, 
+          Blank[]], 
+         Optional[
+          Pattern[$CellContext`bw, 
+           Blank[]], False]] := Graphics[{
+          EdgeForm[
+           Directive[Thin, Black]], 
+          $CellContext`RestPointColor[$CellContext`type, $CellContext`bw], 
+          Disk[]}, ImageSize -> 9], $CellContext`ForceNumber[
          Pattern[$CellContext`n, 
           Blank[]]] := If[
-         NumberQ[$CellContext`n], $CellContext`n, 0]; $CellContext`FixSymbols[
-         Pattern[$CellContext`expression, 
-          Blank[]]] := ReplaceAll[$CellContext`expression, {Condition[
-            Pattern[$CellContext`x, 
-             Blank[Symbol]], 
-            StringMatchQ[
-             SymbolName[$CellContext`x], 
-             StringExpression["x", 
-              Blank[], "$", 
-              BlankNullSequence[]]]] :> ToExpression["x" <> Part[
-              Characters[
-               SymbolName[$CellContext`x]], 2]], Condition[
-            Pattern[$CellContext`p, 
-             Blank[Symbol]], 
-            StringMatchQ[
-             SymbolName[$CellContext`p], 
-             StringExpression["p", 
-              Blank[], "$", 
-              BlankNullSequence[]]]] :> ToExpression["p" <> Part[
-              Characters[
-               SymbolName[$CellContext`p]], 2]], Condition[
-            Pattern[$CellContext`\[CapitalPi], 
-             Blank[Symbol]], 
-            StringMatchQ[
-             SymbolName[$CellContext`\[CapitalPi]], 
-             StringExpression["\[CapitalPi]", 
-              Blank[], "$", 
-              BlankNullSequence[]]]] :> ToExpression["\[CapitalPi]" <> Part[
-              Characters[
-               SymbolName[$CellContext`\[CapitalPi]]], 
-              2]]}]; $CellContext`GenerateReport[
+         NumberQ[$CellContext`n], $CellContext`n, 
+         0], $CellContext`GenerateReport[
          Pattern[$CellContext`payoffMatrix, 
           Blank[]], 
          Pattern[$CellContext`s1Name, 
@@ -1343,554 +1938,719 @@ $CellContext`types}], {
                $CellContext`FixSymbols[$CellContext`allRest]]], "Output"]}]; 
          SelectionMove[$CellContext`report, Before, Notebook]; 
          SetOptions[$CellContext`report, Visible -> True]; 
-         SetSelectedNotebook[$CellContext`report]; Null]; $CellContext`Outcome[
-         Pattern[$CellContext`a1, 
-          Blank[]], 
-         Pattern[$CellContext`a2, 
-          Blank[]]] := If[
-         And[$CellContext`a1 != 2, $CellContext`a2 != 2], 1 + 
-         2 $CellContext`a1 + $CellContext`a2, 0]; $CellContext`ReverseOutcome[
-         Pattern[$CellContext`o, 
-          Blank[]]] := Switch[$CellContext`o, 
-         $CellContext`Outcome[0, 1], 
-         $CellContext`Outcome[1, 0], 
-         $CellContext`Outcome[1, 0], 
-         $CellContext`Outcome[0, 1], 
-         Blank[], $CellContext`o]; $CellContext`Action1[
-         Pattern[$CellContext`o, 
-          Blank[]]] := If[
-         Or[$CellContext`o == $CellContext`Outcome[
-           0, 0], $CellContext`o == $CellContext`Outcome[0, 1]], 0, 
-         1]; $CellContext`Action2[
-         Pattern[$CellContext`o, 
-          Blank[]]] := If[
-         Or[$CellContext`o == $CellContext`Outcome[
-           0, 0], $CellContext`o == $CellContext`Outcome[1, 0]], 0, 
-         1]; $CellContext`ActionAfter[
-         Pattern[$CellContext`s, 
-          Blank[List]], 
-         Pattern[$CellContext`outcome, 
-          Blank[]]] := 
-       Part[$CellContext`s, 1 + $CellContext`outcome]; $CellContext`Match[
-         Pattern[$CellContext`s1, 
-          Blank[]], 
-         Pattern[$CellContext`s2, 
-          Blank[]], 
-         Optional[
+         SetSelectedNotebook[$CellContext`report]; 
+         Null], $CellContext`FixSymbols[
+         Pattern[$CellContext`expression, 
+          Blank[]]] := ReplaceAll[$CellContext`expression, {Condition[
+            Pattern[$CellContext`x, 
+             Blank[Symbol]], 
+            StringMatchQ[
+             SymbolName[$CellContext`x], 
+             StringExpression["x", 
+              Blank[], "$", 
+              BlankNullSequence[]]]] :> ToExpression["x" <> Part[
+              Characters[
+               SymbolName[$CellContext`x]], 2]], Condition[
+            Pattern[$CellContext`p, 
+             Blank[Symbol]], 
+            StringMatchQ[
+             SymbolName[$CellContext`p], 
+             StringExpression["p", 
+              Blank[], "$", 
+              BlankNullSequence[]]]] :> ToExpression["p" <> Part[
+              Characters[
+               SymbolName[$CellContext`p]], 2]], Condition[
+            Pattern[$CellContext`\[CapitalPi], 
+             Blank[Symbol]], 
+            StringMatchQ[
+             SymbolName[$CellContext`\[CapitalPi]], 
+             StringExpression["\[CapitalPi]", 
+              Blank[], "$", 
+              BlankNullSequence[]]]] :> ToExpression["\[CapitalPi]" <> Part[
+              Characters[
+               SymbolName[$CellContext`\[CapitalPi]]], 
+              2]]}], $CellContext`ForceNumber[
+          Pattern[$CellContext`n, 
+           Blank[]]] := If[
+          NumberQ[$CellContext`n], $CellContext`n, 0]; $CellContext`FixSymbols[
+          Pattern[$CellContext`expression, 
+           Blank[]]] := ReplaceAll[$CellContext`expression, {Condition[
+             Pattern[$CellContext`x, 
+              Blank[Symbol]], 
+             StringMatchQ[
+              SymbolName[$CellContext`x], 
+              StringExpression["x", 
+               Blank[], "$", 
+               BlankNullSequence[]]]] :> ToExpression["x" <> Part[
+               Characters[
+                SymbolName[$CellContext`x]], 2]], Condition[
+             Pattern[$CellContext`p, 
+              Blank[Symbol]], 
+             StringMatchQ[
+              SymbolName[$CellContext`p], 
+              StringExpression["p", 
+               Blank[], "$", 
+               BlankNullSequence[]]]] :> ToExpression["p" <> Part[
+               Characters[
+                SymbolName[$CellContext`p]], 2]], Condition[
+             Pattern[$CellContext`\[CapitalPi], 
+              Blank[Symbol]], 
+             StringMatchQ[
+              SymbolName[$CellContext`\[CapitalPi]], 
+              StringExpression["\[CapitalPi]", 
+               Blank[], "$", 
+               BlankNullSequence[]]]] :> ToExpression["\[CapitalPi]" <> Part[
+               Characters[
+                SymbolName[$CellContext`\[CapitalPi]]], 
+               2]]}]; $CellContext`GenerateReport[
+          Pattern[$CellContext`payoffMatrix, 
+           Blank[]], 
+          Pattern[$CellContext`s1Name, 
+           Blank[]], 
+          Pattern[$CellContext`s2Name, 
+           Blank[]], 
           Pattern[$CellContext`\[Epsilon], 
-           Blank[]], 0], 
-         Optional[
+           Blank[]], 
           Pattern[$CellContext`\[Delta], 
-           Blank[]], 1], 
-         Optional[
-          Pattern[$CellContext`timesteps, 
-           Blank[]], 10]] := 
-       Module[{$CellContext`a1 = First[$CellContext`s1], $CellContext`a2 = 
-          First[$CellContext`s2], $CellContext`t = 
-          0, $CellContext`sequence, $CellContext`pos, $CellContext`M, \
-$CellContext`initial}, 
-         If[
+           Blank[]], 
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`figure, 
+           Blank[]], 
+          Pattern[$CellContext`allRest, 
+           Blank[]], 
+          Pattern[$CellContext`points, 
+           Blank[]], 
+          Pattern[$CellContext`eigenvalues, 
+           Blank[]], 
+          Pattern[$CellContext`pools, 
+           Blank[]], 
+          Pattern[$CellContext`types, 
+           Blank[]], 
+          Pattern[$CellContext`regions, 
+           Blank[]]] := 
+        Module[{$CellContext`report}, $CellContext`report = CreateDocument[{
+              TextCell["1pop-2s-RD-ES report", "Title"], 
+              TextCell["Parameters", "Section"], 
+              TextCell["Payoff matrix", "Subsection"], 
+              TextCell[
+               MatrixForm[$CellContext`payoffMatrix], "Text"], 
+              TextCell["Dynamic", "Subsection"], 
+              TextCell[
+              "Replicator dynamics with probability of action error \
+\[Epsilon] = " <> ToString[
+                 If[$CellContext`\[Epsilon] == 0, 0, 
+                  N[$CellContext`\[Epsilon]]]] <> 
+               ", continuation probability \[Delta] = " <> ToString[
+                 If[$CellContext`\[Delta] == 0, 0, 
+                  N[$CellContext`\[Delta]]]] <> 
+               " and probability of experimentation \[Mu] = " <> ToString[
+                 If[$CellContext`m == 0, 0, 
+                  N[$CellContext`m]]] <> 
+               ". The two strategies are " <> $CellContext`s1Name <> 
+               " and " <> $CellContext`s2Name <> ".", "Text"], 
+              TextCell["Phase portrait and numeric computations", "Section"], 
+              ExpressionCell[$CellContext`figure, TextAlignment -> Center]}, 
+             Visible -> False]; 
+          SelectionMove[$CellContext`report, After, Notebook]; 
+          If[$CellContext`points =!= {}, 
+            NotebookWrite[$CellContext`report, {
+              Cell["Exact isolated rest points", "Section"], 
+              Cell[
+               BoxData[
+                ToBoxes[
+                 Grid[
+                  Prepend[
+                   Transpose[{$CellContext`points, 
+                    Simplify[1 - $CellContext`points], $CellContext`pools, 
+                    Simplify[
+                    1 - $CellContext`pools], $CellContext`eigenvalues, \
+$CellContext`types}], {
+                    Subscript[
+                    Style["x", Italic], 1], 
+                    Subscript[
+                    Style["x", Italic], 2], 
+                    Subscript[
+                    Style["p", Italic], 1], 
+                    Subscript[
+                    Style["p", Italic], 2], 
+                    Style["\[Lambda]", Italic], "type"}], 
+                  Dividers -> {{3 -> True, 5 -> True, 6 -> True}, {
+                    2 -> True}}, Alignment -> {Left, Bottom}, 
+                  Spacings -> {1, 0.5}]]], "Output"]}]]; 
+          If[$CellContext`regions =!= {}, 
+            NotebookWrite[$CellContext`report, {
+              Cell["Exact components of rest points", "Section"], 
+              Cell[
+               BoxData[
+                ToBoxes[
+                 Column[
+                  $CellContext`FixSymbols[$CellContext`regions]]]], 
+               "Output"]}]]; NotebookWrite[$CellContext`report, {
+             Cell["Exact solution set as returned by Reduce", "Section"], 
+             Cell[
+              BoxData[
+               ToBoxes[
+                $CellContext`FixSymbols[$CellContext`allRest]]], "Output"]}]; 
+          SelectionMove[$CellContext`report, Before, Notebook]; 
+          SetOptions[$CellContext`report, Visible -> True]; 
+          SetSelectedNotebook[$CellContext`report]; 
+          Null]; $CellContext`Outcome[
+          Pattern[$CellContext`a1, 
+           Blank[]], 
+          Pattern[$CellContext`a2, 
+           Blank[]]] := If[
+          And[$CellContext`a1 != 2, $CellContext`a2 != 2], 1 + 
+          2 $CellContext`a1 + $CellContext`a2, 0]; $CellContext`ReverseOutcome[
+          Pattern[$CellContext`o, 
+           Blank[]]] := Switch[$CellContext`o, 
+          $CellContext`Outcome[0, 1], 
+          $CellContext`Outcome[1, 0], 
+          $CellContext`Outcome[1, 0], 
+          $CellContext`Outcome[0, 1], 
+          Blank[], $CellContext`o]; $CellContext`Action1[
+          Pattern[$CellContext`o, 
+           Blank[]]] := If[
           
-          And[$CellContext`\[Epsilon] === 0, $CellContext`\[Delta] === 
-           1], $CellContext`sequence = {
-             $CellContext`Outcome[$CellContext`a1, $CellContext`a2]}; While[
-            
-            And[$CellContext`Outcome[$CellContext`a1, $CellContext`a2] != 
-             0, $CellContext`t < 1000], {$CellContext`a1, $CellContext`a2} = {
-               $CellContext`ActionAfter[$CellContext`s1, 
-                $CellContext`Outcome[$CellContext`a1, $CellContext`a2]], 
-               $CellContext`ActionAfter[$CellContext`s2, 
-                $CellContext`Outcome[$CellContext`a2, $CellContext`a1]]}; If[
-              MemberQ[$CellContext`sequence, 
-               $CellContext`Outcome[$CellContext`a1, $CellContext`a2]], \
+          Or[$CellContext`o == $CellContext`Outcome[
+            0, 0], $CellContext`o == $CellContext`Outcome[0, 1]], 0, 
+          1]; $CellContext`Action2[
+          Pattern[$CellContext`o, 
+           Blank[]]] := If[
+          
+          Or[$CellContext`o == $CellContext`Outcome[
+            0, 0], $CellContext`o == $CellContext`Outcome[1, 0]], 0, 
+          1]; $CellContext`ActionAfter[
+          Pattern[$CellContext`s, 
+           Blank[List]], 
+          Pattern[$CellContext`outcome, 
+           Blank[]]] := 
+        Part[$CellContext`s, 1 + $CellContext`outcome]; $CellContext`Match[
+          Pattern[$CellContext`s1, 
+           Blank[]], 
+          Pattern[$CellContext`s2, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`\[Epsilon], 
+            Blank[]], 0], 
+          Optional[
+           Pattern[$CellContext`\[Delta], 
+            Blank[]], 1], 
+          Optional[
+           Pattern[$CellContext`timesteps, 
+            Blank[]], 10]] := 
+        Module[{$CellContext`a1 = First[$CellContext`s1], $CellContext`a2 = 
+           First[$CellContext`s2], $CellContext`t = 
+           0, $CellContext`sequence, $CellContext`pos, $CellContext`M, \
+$CellContext`initial}, 
+          If[
+           
+           And[$CellContext`\[Epsilon] === 0, $CellContext`\[Delta] === 
+            1], $CellContext`sequence = {
+              $CellContext`Outcome[$CellContext`a1, $CellContext`a2]}; While[
+             
+             And[$CellContext`Outcome[$CellContext`a1, $CellContext`a2] != 
+              0, $CellContext`t < 1000], {$CellContext`a1, $CellContext`a2} = {
+                $CellContext`ActionAfter[$CellContext`s1, 
+                 $CellContext`Outcome[$CellContext`a1, $CellContext`a2]], 
+                $CellContext`ActionAfter[$CellContext`s2, 
+                 $CellContext`Outcome[$CellContext`a2, $CellContext`a1]]}; If[
+               MemberQ[$CellContext`sequence, 
+                $CellContext`Outcome[$CellContext`a1, $CellContext`a2]], \
 $CellContext`t = Infinity, $CellContext`t = $CellContext`t + 1; Null]; 
-            AppendTo[$CellContext`sequence, 
-              $CellContext`Outcome[$CellContext`a1, $CellContext`a2]]; Null]; 
-          If[$CellContext`t == Infinity, $CellContext`pos = First[
-               FirstPosition[$CellContext`sequence, 
-                $CellContext`Outcome[$CellContext`a1, $CellContext`a2]]]; \
+             AppendTo[$CellContext`sequence, 
+               $CellContext`Outcome[$CellContext`a1, $CellContext`a2]]; Null]; 
+           If[$CellContext`t == Infinity, $CellContext`pos = First[
+                FirstPosition[$CellContext`sequence, 
+                 $CellContext`Outcome[$CellContext`a1, $CellContext`a2]]]; \
 {$CellContext`t, {
-               Part[$CellContext`sequence, 
-                Span[1, $CellContext`pos - 1]], 
-               Part[$CellContext`sequence, 
-                Span[$CellContext`pos, -2]]}}, {$CellContext`t, 
-             Part[$CellContext`sequence, 
-              Span[
-              1, -2]]}], $CellContext`M = \
+                Part[$CellContext`sequence, 
+                 Span[1, $CellContext`pos - 1]], 
+                Part[$CellContext`sequence, 
+                 Span[$CellContext`pos, -2]]}}, {$CellContext`t, 
+              Part[$CellContext`sequence, 
+               Span[
+               1, -2]]}], $CellContext`M = \
 $CellContext`TransitionMatrix[$CellContext`s1, $CellContext`s2, $CellContext`\
 \[Epsilon], $CellContext`\[Delta]]; $CellContext`initial = \
 $CellContext`FirstOutcomeDistribution[$CellContext`s1, $CellContext`s2, \
 $CellContext`\[Epsilon]]; Prepend[
-            Table[
-             Dot[$CellContext`initial, 
-              MatrixPower[$CellContext`M, $CellContext`i]], {$CellContext`i, 
-              1, $CellContext`timesteps}], $CellContext`initial]]]; \
+             Table[
+              Dot[$CellContext`initial, 
+               MatrixPower[$CellContext`M, $CellContext`i]], {$CellContext`i, 
+               1, $CellContext`timesteps}], $CellContext`initial]]]; \
 $CellContext`FirstOutcomeDistribution[
-         Pattern[$CellContext`s1, 
-          Blank[]], 
-         Pattern[$CellContext`s2, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`\[Epsilon], 
-           Blank[]], 0]] := Flatten[
-         Outer[
-         Times, (1 - $CellContext`\[Epsilon]) 
-           UnitVector[
-            1 + First[$CellContext`s1]] + $CellContext`\[Epsilon] ({1, 1} - 
-            UnitVector[1 + First[$CellContext`s1]]), (
-            1 - $CellContext`\[Epsilon]) 
-           UnitVector[
-            1 + First[$CellContext`s2]] + $CellContext`\[Epsilon] ({1, 1} - 
-            UnitVector[1 + First[$CellContext`s2]])]]; $CellContext`Payoff[
-         Pattern[$CellContext`o, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`payoffs, 
-           Blank[]], {3, 0, 4, 1}]] := 
-       Module[{$CellContext`R, $CellContext`S, $CellContext`T, \
+          Pattern[$CellContext`s1, 
+           Blank[]], 
+          Pattern[$CellContext`s2, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`\[Epsilon], 
+            Blank[]], 0]] := Flatten[
+          Outer[
+          Times, (1 - $CellContext`\[Epsilon]) 
+            UnitVector[
+             1 + First[$CellContext`s1]] + $CellContext`\[Epsilon] ({1, 1} - 
+             UnitVector[1 + First[$CellContext`s1]]), (
+             1 - $CellContext`\[Epsilon]) 
+            UnitVector[
+             1 + First[$CellContext`s2]] + $CellContext`\[Epsilon] ({1, 1} - 
+             UnitVector[1 + First[$CellContext`s2]])]]; $CellContext`Payoff[
+          Pattern[$CellContext`o, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`payoffs, 
+            Blank[]], {3, 0, 4, 1}]] := 
+        Module[{$CellContext`R, $CellContext`S, $CellContext`T, \
 $CellContext`P}, {$CellContext`R, $CellContext`S, $CellContext`T, \
 $CellContext`P} = $CellContext`payoffs; 
-         Switch[$CellContext`o, 1, $CellContext`R, 2, $CellContext`S, 
-           3, $CellContext`T, 4, $CellContext`P, 
-           Blank[], "no"]]; $CellContext`F[
-         Pattern[$CellContext`i, 
-          Blank[]], 
-         Pattern[$CellContext`ej, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`\[Epsilon], 
-           Blank[]], 0], 
-         Optional[
-          Pattern[$CellContext`\[Delta], 
-           Blank[]], 1], 
-         Optional[
-          Pattern[$CellContext`payoffs, 
-           Blank[]], {3, 0, 4, 1}]] := 
-       Module[{$CellContext`Tij, $CellContext`sequence, \
+          Switch[$CellContext`o, 1, $CellContext`R, 2, $CellContext`S, 
+            3, $CellContext`T, 4, $CellContext`P, 
+            Blank[], "no"]]; $CellContext`F[
+          Pattern[$CellContext`i, 
+           Blank[]], 
+          Pattern[$CellContext`ej, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`\[Epsilon], 
+            Blank[]], 0], 
+          Optional[
+           Pattern[$CellContext`\[Delta], 
+            Blank[]], 1], 
+          Optional[
+           Pattern[$CellContext`payoffs, 
+            Blank[]], {3, 0, 4, 1}]] := 
+        Module[{$CellContext`Tij, $CellContext`sequence, \
 $CellContext`initialPhase, $CellContext`cycle, $CellContext`R, \
 $CellContext`S, $CellContext`T, $CellContext`P}, {$CellContext`R, \
 $CellContext`S, $CellContext`T, $CellContext`P} = $CellContext`payoffs; If[
-           
-           And[$CellContext`\[Epsilon] === 0, $CellContext`\[Delta] === 
-            1], {$CellContext`Tij, $CellContext`sequence} = \
+            
+            And[$CellContext`\[Epsilon] === 0, $CellContext`\[Delta] === 
+             1], {$CellContext`Tij, $CellContext`sequence} = \
 $CellContext`Match[$CellContext`i, $CellContext`ej]; 
-           If[$CellContext`Tij < Infinity, (1/$CellContext`Tij) Sum[
-               $CellContext`Payoff[
-                
-                Part[$CellContext`sequence, $CellContext`t], \
-$CellContext`payoffs], {$CellContext`t, 
-                1, $CellContext`Tij}], {$CellContext`initialPhase, \
-$CellContext`cycle} = $CellContext`sequence; (1/Length[$CellContext`cycle]) 
-              Sum[
+            If[$CellContext`Tij < Infinity, (1/$CellContext`Tij) Sum[
                 $CellContext`Payoff[
                  
-                 Part[$CellContext`cycle, $CellContext`t], \
+                 Part[$CellContext`sequence, $CellContext`t], \
+$CellContext`payoffs], {$CellContext`t, 
+                 1, $CellContext`Tij}], {$CellContext`initialPhase, \
+$CellContext`cycle} = $CellContext`sequence; (1/Length[$CellContext`cycle]) 
+               Sum[
+                 $CellContext`Payoff[
+                  
+                  Part[$CellContext`cycle, $CellContext`t], \
 $CellContext`payoffs], {$CellContext`t, 1, 
-                 Length[$CellContext`cycle]}]], 
-           
-           Dot[{$CellContext`R, $CellContext`S, $CellContext`T, \
+                  Length[$CellContext`cycle]}]], 
+            
+            Dot[{$CellContext`R, $CellContext`S, $CellContext`T, \
 $CellContext`P}, 
-            $CellContext`AsymptoticDistribution[$CellContext`i, \
+             $CellContext`AsymptoticDistribution[$CellContext`i, \
 $CellContext`ej, $CellContext`\[Epsilon], $CellContext`\[Delta]]]]]; \
 $CellContext`ProbsOfThe3Actions[
-         Pattern[$CellContext`s, 
-          Blank[List]], 
-         Pattern[$CellContext`outcome, 
-          Blank[]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]]] := 
-       Module[{$CellContext`actionNoNoise = \
+          Pattern[$CellContext`s, 
+           Blank[List]], 
+          Pattern[$CellContext`outcome, 
+           Blank[]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]]] := 
+        Module[{$CellContext`actionNoNoise = \
 $CellContext`ActionAfter[$CellContext`s, $CellContext`outcome]}, 
-         Switch[$CellContext`actionNoNoise, 0, {
-          1 - $CellContext`\[Epsilon], $CellContext`\[Epsilon], 0}, 
-          1, {$CellContext`\[Epsilon], 1 - $CellContext`\[Epsilon], 0}, 2, {0,
-           0, 1}]]; $CellContext`ProbOfLeaving[
-         Pattern[$CellContext`s, 
-          Blank[List]], 
-         Pattern[$CellContext`outcome, 
-          Blank[]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]]] := Last[
-         $CellContext`ProbsOfThe3Actions[$CellContext`s, \
+          
+          Switch[$CellContext`actionNoNoise, 0, {
+           1 - $CellContext`\[Epsilon], $CellContext`\[Epsilon], 0}, 
+           1, {$CellContext`\[Epsilon], 1 - $CellContext`\[Epsilon], 0}, 2, {
+           0, 0, 1}]]; $CellContext`ProbOfLeaving[
+          Pattern[$CellContext`s, 
+           Blank[List]], 
+          Pattern[$CellContext`outcome, 
+           Blank[]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]]] := Last[
+          $CellContext`ProbsOfThe3Actions[$CellContext`s, \
 $CellContext`outcome, $CellContext`\[Epsilon]]]; \
 $CellContext`ProbOfPartnershipBreakup[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`outcome, 
-          Blank[]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := 
-       Module[{$CellContext`p1 = $CellContext`ProbOfLeaving[$CellContext`s1, \
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`outcome, 
+           Blank[]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := 
+        Module[{$CellContext`p1 = $CellContext`ProbOfLeaving[$CellContext`s1, \
 $CellContext`outcome, $CellContext`\[Epsilon]], $CellContext`p2 = \
 $CellContext`ProbOfLeaving[$CellContext`s2, 
-            $CellContext`ReverseOutcome[$CellContext`outcome], $CellContext`\
+             $CellContext`ReverseOutcome[$CellContext`outcome], $CellContext`\
 \[Epsilon]], $CellContext`pEnd}, $CellContext`pEnd = $CellContext`p1 + \
 $CellContext`p2 - $CellContext`p1 $CellContext`p2; 
-         1 - (1 - $CellContext`pEnd) $CellContext`\[Delta]]; \
+          1 - (1 - $CellContext`pEnd) $CellContext`\[Delta]]; \
 $CellContext`TransitionProb[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`o1, 
-          Blank[]], 
-         Pattern[$CellContext`o2, 
-          Blank[]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := 
-       Module[{$CellContext`probBreakup = \
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`o1, 
+           Blank[]], 
+          Pattern[$CellContext`o2, 
+           Blank[]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := 
+        Module[{$CellContext`probBreakup = \
 $CellContext`ProbOfPartnershipBreakup[$CellContext`s1, $CellContext`s2, \
 $CellContext`o1, $CellContext`\[Epsilon], $CellContext`\[Delta]]}, 
-         If[$CellContext`o2 == 0, 
-          If[$CellContext`o1 == 0, 0, $CellContext`probBreakup], 
-          If[$CellContext`o1 == 0, 1, $CellContext`\[Delta]] Part[
-            $CellContext`ProbsOfThe3Actions[$CellContext`s1, $CellContext`o1, \
-$CellContext`\[Epsilon]], 1 + $CellContext`Action1[$CellContext`o2]] Part[
-            $CellContext`ProbsOfThe3Actions[$CellContext`s2, 
-             $CellContext`ReverseOutcome[$CellContext`o1], $CellContext`\
+          If[$CellContext`o2 == 0, 
+           If[$CellContext`o1 == 0, 0, $CellContext`probBreakup], 
+           If[$CellContext`o1 == 0, 1, $CellContext`\[Delta]] Part[
+             $CellContext`ProbsOfThe3Actions[$CellContext`s1, \
+$CellContext`o1, $CellContext`\[Epsilon]], 
+             1 + $CellContext`Action1[$CellContext`o2]] Part[
+             $CellContext`ProbsOfThe3Actions[$CellContext`s2, 
+              $CellContext`ReverseOutcome[$CellContext`o1], $CellContext`\
 \[Epsilon]], 
-            1 + $CellContext`Action2[$CellContext`o2]]]]; \
+             1 + $CellContext`Action2[$CellContext`o2]]]]; \
 $CellContext`TransitionMatrixIncludingBreakUp[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := Module[{$CellContext`allOutcomes = Range[0, 4]}, 
-         Outer[$CellContext`TransitionProb[$CellContext`s1, $CellContext`s2, \
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := Module[{$CellContext`allOutcomes = Range[0, 4]}, 
+          
+          Outer[$CellContext`TransitionProb[$CellContext`s1, $CellContext`s2, \
 #, #2, $CellContext`\[Epsilon], $CellContext`\[Delta]]& , \
 $CellContext`allOutcomes, $CellContext`allOutcomes]]; \
 $CellContext`TransitionMatrix[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := 
-       Module[{$CellContext`M, $CellContext`outflow, $CellContext`inflow}, \
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := 
+        Module[{$CellContext`M, $CellContext`outflow, $CellContext`inflow}, \
 $CellContext`M = \
 $CellContext`TransitionMatrixIncludingBreakUp[$CellContext`s1, \
 $CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]]; \
 $CellContext`outflow = Rest[
-            First[$CellContext`M]]; $CellContext`inflow = First[
-            Transpose[$CellContext`M]]; Map[Rest[
-             Part[$CellContext`M, #]] + 
-           Part[$CellContext`inflow, #] $CellContext`outflow& , 
-           Range[2, 5]]]; $CellContext`AsymptoticDistribution[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := Module[{$CellContext`M = Transpose[
-            $CellContext`TransitionMatrix[$CellContext`s1, $CellContext`s2, \
+             First[$CellContext`M]]; $CellContext`inflow = First[
+             Transpose[$CellContext`M]]; Map[Rest[
+              Part[$CellContext`M, #]] + 
+            Part[$CellContext`inflow, #] $CellContext`outflow& , 
+            Range[2, 5]]]; $CellContext`AsymptoticDistribution[
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := Module[{$CellContext`M = Transpose[
+             $CellContext`TransitionMatrix[$CellContext`s1, $CellContext`s2, \
 $CellContext`\[Epsilon], $CellContext`\[Delta]]]}, 
-         FullSimplify[
-          Normalize[
-           Abs[
-            First[
-             NullSpace[$CellContext`M - IdentityMatrix[
-               Length[$CellContext`M]]]]], Total], 
-          Assumptions -> {
-           0 <= $CellContext`\[Epsilon] <= 1, 0 <= $CellContext`\[Delta] <= 
-            1}]]; $CellContext`ExpectedTimeUntilBreakUp[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := 
-       Module[{$CellContext`P = \
+          FullSimplify[
+           Normalize[
+            Abs[
+             First[
+              NullSpace[$CellContext`M - IdentityMatrix[
+                Length[$CellContext`M]]]]], Total], 
+           Assumptions -> {
+            0 <= $CellContext`\[Epsilon] <= 1, 0 <= $CellContext`\[Delta] <= 
+             1}]]; $CellContext`ExpectedTimeUntilBreakUp[
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := 
+        Module[{$CellContext`P = \
 $CellContext`TransitionMatrixIncludingBreakUp[$CellContext`s1, \
 $CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]], \
 $CellContext`initialDistribution = \
 $CellContext`FirstOutcomeDistribution[$CellContext`s1, $CellContext`s2, \
 $CellContext`\[Epsilon]]}, 
-         Dot[$CellContext`initialDistribution, 
-          Dot[
-           Inverse[IdentityMatrix[4] - Part[$CellContext`P, 
-             Span[2, All], 
-             Span[2, All]]], 
-           Table[1, {4}]]]]; $CellContext`Ls[
-         Pattern[$CellContext`s1, 
-          Blank[List]], 
-         Pattern[$CellContext`s2, 
-          Blank[List]], 
-         Pattern[$CellContext`\[Epsilon], 
-          Blank[]], 
-         Pattern[$CellContext`\[Delta], 
-          Blank[]]] := {
-         $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s1, \
+          Dot[$CellContext`initialDistribution, 
+           Dot[
+            Inverse[IdentityMatrix[4] - Part[$CellContext`P, 
+              Span[2, All], 
+              Span[2, All]]], 
+            Table[1, {4}]]]]; $CellContext`Ls[
+          Pattern[$CellContext`s1, 
+           Blank[List]], 
+          Pattern[$CellContext`s2, 
+           Blank[List]], 
+          Pattern[$CellContext`\[Epsilon], 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := {
+          $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s1, \
 $CellContext`s1, $CellContext`\[Epsilon], $CellContext`\[Delta]], 
-         $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s1, \
+          $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s1, \
 $CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]], 
-         $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s2, \
+          $CellContext`ExpectedTimeUntilBreakUp[$CellContext`s2, \
 $CellContext`s2, $CellContext`\[Epsilon], $CellContext`\[Delta]]}; \
 $CellContext`PoolFromPopGivenL[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`L, 
-          Blank[List]]] := 
-       Module[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}, \
+          Pattern[$CellContext`x1, 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[List]]] := 
+        Module[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}, \
 {$CellContext`L11, $CellContext`Lx, $CellContext`L22} = $CellContext`L; 
-         If[Max[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}] - 
-            Min[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}] < 
-           10^(-6), $CellContext`x1, 
-           
-           If[-$CellContext`L11 + $CellContext`Lx + ($CellContext`L11 + \
-$CellContext`L22 - 2 $CellContext`Lx) $CellContext`x1 == 0, 
+          If[Max[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}] - 
+             Min[{$CellContext`L11, $CellContext`Lx, $CellContext`L22}] < 
+            10^(-6), $CellContext`x1, 
             
-            If[$CellContext`Lx + 
-              2 ($CellContext`L22 - $CellContext`Lx) $CellContext`x1 == 
-             0, $CellContext`x1, ($CellContext`x1 \
+            If[-$CellContext`L11 + $CellContext`Lx + ($CellContext`L11 + \
+$CellContext`L22 - 2 $CellContext`Lx) $CellContext`x1 == 0, 
+             
+             If[$CellContext`Lx + 
+               2 ($CellContext`L22 - $CellContext`Lx) $CellContext`x1 == 
+              0, $CellContext`x1, ($CellContext`x1 \
 $CellContext`L22)/($CellContext`Lx + 
-             2 ($CellContext`L22 - $CellContext`Lx) $CellContext`x1)], \
+              2 ($CellContext`L22 - $CellContext`Lx) $CellContext`x1)], \
 ($CellContext`Lx + 2 $CellContext`L22 $CellContext`x1 - 
-             2 $CellContext`Lx $CellContext`x1 - 
-             Sqrt[$CellContext`Lx^2 (1 - 2 $CellContext`x1)^2 - 
-              4 $CellContext`L11 $CellContext`L22 (-1 + $CellContext`x1) \
+              2 $CellContext`Lx $CellContext`x1 - 
+              Sqrt[$CellContext`Lx^2 (1 - 2 $CellContext`x1)^2 - 
+               4 $CellContext`L11 $CellContext`L22 (-1 + $CellContext`x1) \
 $CellContext`x1])/(
-            2 (-$CellContext`L11 + $CellContext`Lx + ($CellContext`L11 + \
+             2 (-$CellContext`L11 + $CellContext`Lx + ($CellContext`L11 + \
 $CellContext`L22 - 2 $CellContext`Lx) $CellContext`x1))]]]; $CellContext`Fx[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`L, 
-          Blank[List]], 
-         Pattern[$CellContext`FMatrix, 
-          Blank[]]] := 
-       Module[{$CellContext`L11, $CellContext`Lx, $CellContext`L22, \
+          Pattern[$CellContext`x1, 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[List]], 
+          Pattern[$CellContext`FMatrix, 
+           Blank[]]] := 
+        Module[{$CellContext`L11, $CellContext`Lx, $CellContext`L22, \
 $CellContext`p1}, {$CellContext`L11, $CellContext`Lx, $CellContext`L22} = \
 $CellContext`L; $CellContext`p1 = \
 $CellContext`PoolFromPopGivenL[$CellContext`x1, $CellContext`L]; 
-         Dot[Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
-              Transpose[{{$CellContext`L11, $CellContext`Lx}, \
+          Dot[Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
+               Transpose[{{$CellContext`L11, $CellContext`Lx}, \
 {$CellContext`Lx, $CellContext`L22}}]] $CellContext`FMatrix, {1, 1}]/Dot[
-           
-           Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
-            Transpose[{{$CellContext`L11, $CellContext`Lx}, {$CellContext`Lx, \
-$CellContext`L22}}]], {1, 1}]]; $CellContext`Replicator[
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`\[CapitalPi], 
-          Blank[]]] := 
-       Module[{$CellContext`avgPayoff = 
-          Dot[$CellContext`x, $CellContext`\[CapitalPi]]}, $CellContext`x \
+            
+            Transpose[{$CellContext`p1, 1 - $CellContext`p1} 
+             Transpose[{{$CellContext`L11, $CellContext`Lx}, \
+{$CellContext`Lx, $CellContext`L22}}]], {1, 1}]]; $CellContext`Replicator[
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`\[CapitalPi], 
+           Blank[]]] := 
+        Module[{$CellContext`avgPayoff = 
+           Dot[$CellContext`x, $CellContext`\[CapitalPi]]}, $CellContext`x \
 $CellContext`\[CapitalPi] - $CellContext`avgPayoff $CellContext`x]; \
 $CellContext`ExpectedChange[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`m, 
-          Blank[]], 
-         Pattern[$CellContext`L, 
-          Blank[List]], 
-         Pattern[$CellContext`FMatrix, 
-          Blank[]]] := 
-       Module[{$CellContext`\[CapitalPi]}, $CellContext`\[CapitalPi] = \
+          Pattern[$CellContext`x1, 
+           Blank[]], 
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[List]], 
+          Pattern[$CellContext`FMatrix, 
+           Blank[]]] := 
+        Module[{$CellContext`\[CapitalPi]}, $CellContext`\[CapitalPi] = \
 $CellContext`Fx[$CellContext`x1, $CellContext`L, $CellContext`FMatrix]; (
-            1 - $CellContext`m) $CellContext`Replicator[{$CellContext`x1, 
-              1 - $CellContext`x1}, $CellContext`\[CapitalPi]] + \
+             1 - $CellContext`m) $CellContext`Replicator[{$CellContext`x1, 
+               1 - $CellContext`x1}, $CellContext`\[CapitalPi]] + \
 $CellContext`m (
-            ConstantArray[1/2, 2] - {$CellContext`x1, 
-             1 - $CellContext`x1})]; $CellContext`ChangeInX1[
-         Pattern[$CellContext`x1, 
-          Blank[]], 
-         Pattern[$CellContext`m, 
-          Blank[]], 
-         Pattern[$CellContext`L, 
-          Blank[List]], 
-         Pattern[$CellContext`FMatrix, 
-          Blank[]]] := Together[
-         First[
-          $CellContext`ExpectedChange[$CellContext`x1, $CellContext`m, \
+             ConstantArray[1/2, 2] - {$CellContext`x1, 
+              1 - $CellContext`x1})]; $CellContext`ChangeInX1[
+          Pattern[$CellContext`x1, 
+           Blank[]], 
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[List]], 
+          Pattern[$CellContext`FMatrix, 
+           Blank[]]] := Together[
+          First[
+           $CellContext`ExpectedChange[$CellContext`x1, $CellContext`m, \
 $CellContext`L, $CellContext`FMatrix]]]; $CellContext`RationalBetween[
-         Pattern[$CellContext`a, 
-          Blank[]], 
-         Pattern[$CellContext`b, 
-          Blank[]]] := 
-       Module[{$CellContext`digits = 40, $CellContext`q = Null}, 
-         While[$CellContext`digits < 2000, $CellContext`q = Rationalize[
-              N[($CellContext`a + $CellContext`b)/2, $CellContext`digits], 0]; 
-           If[
-             TrueQ[
-              Reduce[$CellContext`a < $CellContext`q < $CellContext`b]], 
-             Return[$CellContext`q]]; $CellContext`digits = 
-            2 $CellContext`digits]; ($CellContext`a + $CellContext`b)/
-          2]; $CellContext`RestPointTypes[
-         Pattern[$CellContext`restPoints, 
-          Blank[List]], 
-         Pattern[$CellContext`extraBounds, 
-          Blank[List]], 
-         Pattern[$CellContext`m, 
-          Blank[]], 
-         Pattern[$CellContext`L, 
-          Blank[List]], 
-         Pattern[$CellContext`FMatrix, 
-          Blank[]]] := 
-       Module[{$CellContext`bounds, $CellContext`separators, \
+          Pattern[$CellContext`a, 
+           Blank[]], 
+          Pattern[$CellContext`b, 
+           Blank[]]] := 
+        Module[{$CellContext`digits = 40, $CellContext`q = Null}, 
+          While[$CellContext`digits < 2000, $CellContext`q = Rationalize[
+               N[($CellContext`a + $CellContext`b)/2, $CellContext`digits], 
+               0]; If[
+              TrueQ[
+               Reduce[$CellContext`a < $CellContext`q < $CellContext`b]], 
+              Return[$CellContext`q]]; $CellContext`digits = 
+             2 $CellContext`digits]; ($CellContext`a + $CellContext`b)/
+           2]; $CellContext`RestPointTypes[
+          Pattern[$CellContext`restPoints, 
+           Blank[List]], 
+          Pattern[$CellContext`extraBounds, 
+           Blank[List]], 
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[List]], 
+          Pattern[$CellContext`FMatrix, 
+           Blank[]]] := 
+        Module[{$CellContext`bounds, $CellContext`separators, \
 $CellContext`signs, $CellContext`k, $CellContext`below, $CellContext`above}, 
-         If[$CellContext`restPoints === {}, 
-           Return[{}]]; $CellContext`bounds = DeleteDuplicates[
-            Sort[
-             Join[{0, 1}, $CellContext`restPoints, $CellContext`extraBounds], 
-             Less]]; $CellContext`separators = Table[
-            $CellContext`RationalBetween[
-             Part[$CellContext`bounds, $CellContext`i], 
-             Part[$CellContext`bounds, $CellContext`i + 1]], {$CellContext`i, 
-             Length[$CellContext`bounds] - 1}]; $CellContext`signs = Map[Sign[
-             $CellContext`ChangeInX1[#, $CellContext`m, $CellContext`L, \
+          If[$CellContext`restPoints === {}, 
+            Return[{}]]; $CellContext`bounds = DeleteDuplicates[
+             Sort[
+              Join[{0, 1}, $CellContext`restPoints, $CellContext`extraBounds],
+               Less]]; $CellContext`separators = Table[
+             $CellContext`RationalBetween[
+              Part[$CellContext`bounds, $CellContext`i], 
+              Part[$CellContext`bounds, $CellContext`i + 1]], {$CellContext`i,
+               Length[$CellContext`bounds] - 1}]; $CellContext`signs = 
+           Map[Sign[
+              $CellContext`ChangeInX1[#, $CellContext`m, $CellContext`L, \
 $CellContext`FMatrix]]& , $CellContext`separators]; 
-         Table[$CellContext`k = First[
-              
-              FirstPosition[$CellContext`bounds, $CellContext`r]]; \
+          Table[$CellContext`k = First[
+               
+               FirstPosition[$CellContext`bounds, $CellContext`r]]; \
 $CellContext`below = If[$CellContext`k > 1, 
-              Part[$CellContext`signs, $CellContext`k - 1], 
-              Null]; $CellContext`above = 
-            If[$CellContext`k <= Length[$CellContext`separators], 
-              Part[$CellContext`signs, $CellContext`k], Null]; 
-           Which[$CellContext`below === Null, 
-             
-             Which[$CellContext`above === -1, "sink", $CellContext`above === 
-              1, "source", True, "undetermined"], $CellContext`above === Null, 
-             
-             Which[$CellContext`below === 1, 
-              "sink", $CellContext`below === -1, "source", True, 
-              "undetermined"], 
-             And[$CellContext`below === 1, $CellContext`above === -1], "sink", 
-             And[$CellContext`below === -1, $CellContext`above === 1], 
-             "source", True, 
-             "undetermined"], {$CellContext`r, $CellContext`restPoints}]]; \
+               Part[$CellContext`signs, $CellContext`k - 1], 
+               Null]; $CellContext`above = 
+             If[$CellContext`k <= Length[$CellContext`separators], 
+               Part[$CellContext`signs, $CellContext`k], Null]; 
+            Which[$CellContext`below === Null, 
+              
+              Which[$CellContext`above === -1, "sink", $CellContext`above === 
+               1, "source", True, "undetermined"], $CellContext`above === 
+              Null, 
+              
+              Which[$CellContext`below === 1, 
+               "sink", $CellContext`below === -1, "source", True, 
+               "undetermined"], 
+              And[$CellContext`below === 1, $CellContext`above === -1], 
+              "sink", 
+              And[$CellContext`below === -1, $CellContext`above === 1], 
+              "source", True, 
+              "undetermined"], {$CellContext`r, $CellContext`restPoints}]]; \
 $CellContext`RestPointColor[
-         Pattern[$CellContext`type, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`bw, 
-           Blank[]], False]] := If[$CellContext`bw, 
-         Switch[$CellContext`type, "sink", Black, "source", White, "saddle", 
-          GrayLevel[0.5], "centre", 
-          GrayLevel[0.8], 
-          Blank[], 
-          GrayLevel[0.3]], 
-         Switch[$CellContext`type, "sink", 
-          Darker[Green], "source", Red, 
-          Blank[], Gray]]; $CellContext`RestPointDerivative[
-         Pattern[$CellContext`L, 
-          Blank[List]], 
-         Pattern[$CellContext`FMatrix, 
-          Blank[]], 
-         Pattern[$CellContext`m, 
-          Blank[]], 
-         Pattern[$CellContext`x, 
-          Blank[]], 
-         Pattern[$CellContext`p, 
-          Blank[]]] := 
-       Module[{$CellContext`y, $CellContext`q, $CellContext`L11, \
+          Pattern[$CellContext`type, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`bw, 
+            Blank[]], False]] := If[$CellContext`bw, 
+          Switch[$CellContext`type, "sink", Black, "source", White, "saddle", 
+           GrayLevel[0.5], "center", 
+           GrayLevel[0.8], 
+           Blank[], 
+           GrayLevel[0.3]], 
+          Switch[$CellContext`type, "sink", 
+           Darker[Green], "source", Red, 
+           Blank[], Gray]]; $CellContext`RestPointDerivative[
+          Pattern[$CellContext`L, 
+           Blank[List]], 
+          Pattern[$CellContext`FMatrix, 
+           Blank[]], 
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`x, 
+           Blank[]], 
+          Pattern[$CellContext`p, 
+           Blank[]]] := 
+        Module[{$CellContext`y, $CellContext`q, $CellContext`L11, \
 $CellContext`Lx, $CellContext`L22, $CellContext`aRow, $CellContext`bRow, \
 $CellContext`G, $CellContext`P1, $CellContext`P2, $CellContext`avg, \
 $CellContext`V, $CellContext`gq, $CellContext`val}, {$CellContext`L11, \
 $CellContext`Lx, $CellContext`L22} = $CellContext`L; $CellContext`aRow = \
 $CellContext`L11 $CellContext`q + $CellContext`Lx (
-             1 - $CellContext`q); $CellContext`bRow = $CellContext`Lx \
+              1 - $CellContext`q); $CellContext`bRow = $CellContext`Lx \
 $CellContext`q + $CellContext`L22 (
-             1 - $CellContext`q); $CellContext`G = $CellContext`y \
+              1 - $CellContext`q); $CellContext`G = $CellContext`y \
 ($CellContext`q $CellContext`aRow + (
-               1 - $CellContext`q) $CellContext`bRow) - $CellContext`q \
+                1 - $CellContext`q) $CellContext`bRow) - $CellContext`q \
 $CellContext`aRow; $CellContext`P1 = (
-            Part[$CellContext`FMatrix, 1, 1] $CellContext`L11 $CellContext`q + 
-            Part[$CellContext`FMatrix, 1, 2] $CellContext`Lx (
-              1 - $CellContext`q))/$CellContext`aRow; $CellContext`P2 = (
-            Part[$CellContext`FMatrix, 2, 1] $CellContext`Lx $CellContext`q + 
-            Part[$CellContext`FMatrix, 2, 2] $CellContext`L22 (
-              1 - $CellContext`q))/$CellContext`bRow; $CellContext`avg = \
+             Part[$CellContext`FMatrix, 1, 1] $CellContext`L11 $CellContext`q + 
+             Part[$CellContext`FMatrix, 1, 2] $CellContext`Lx (
+               1 - $CellContext`q))/$CellContext`aRow; $CellContext`P2 = (
+             Part[$CellContext`FMatrix, 2, 1] $CellContext`Lx $CellContext`q + 
+             Part[$CellContext`FMatrix, 2, 2] $CellContext`L22 (
+               1 - $CellContext`q))/$CellContext`bRow; $CellContext`avg = \
 $CellContext`y $CellContext`P1 + (
-             1 - $CellContext`y) $CellContext`P2; $CellContext`V = (
-             1 - $CellContext`m) $CellContext`y ($CellContext`P1 - \
+              1 - $CellContext`y) $CellContext`P2; $CellContext`V = (
+              1 - $CellContext`m) $CellContext`y ($CellContext`P1 - \
 $CellContext`avg) + $CellContext`m (1/2 - $CellContext`y); $CellContext`gq = 
-          Together[
-            ReplaceAll[
-             
-             D[$CellContext`G, $CellContext`q], {$CellContext`y -> \
+           Together[
+             ReplaceAll[
+              
+              D[$CellContext`G, $CellContext`q], {$CellContext`y -> \
 $CellContext`x, $CellContext`q -> $CellContext`p}]]; If[
-           Or[
-            Not[
-             NumericQ[$CellContext`gq]], 
-            TrueQ[$CellContext`gq == 0]], 
-           Return[Indeterminate]]; $CellContext`val = Together[
-            ReplaceAll[
-            D[$CellContext`V, $CellContext`y] - 
-             D[$CellContext`V, $CellContext`q] (
-              D[$CellContext`G, $CellContext`y]/
-              D[$CellContext`G, $CellContext`q]), {$CellContext`y -> \
+            Or[
+             Not[
+              NumericQ[$CellContext`gq]], 
+             TrueQ[$CellContext`gq == 0]], 
+            Return[Indeterminate]]; $CellContext`val = Together[
+             ReplaceAll[
+             D[$CellContext`V, $CellContext`y] - 
+              D[$CellContext`V, $CellContext`q] (
+               D[$CellContext`G, $CellContext`y]/
+               D[$CellContext`G, $CellContext`q]), {$CellContext`y -> \
 $CellContext`x, $CellContext`q -> $CellContext`p}]]; If[
-           NumericQ[$CellContext`val], $CellContext`val, 
-           Indeterminate]]; $CellContext`RestPointEigenvalues[
-         Pattern[$CellContext`restPoints, 
-          Blank[List]], 
-         Pattern[$CellContext`m, 
-          Blank[]], 
-         Pattern[$CellContext`L, 
-          Blank[List]], 
-         Pattern[$CellContext`FMatrix, 
-          Blank[]]] := 
-       Map[$CellContext`RestPointDerivative[$CellContext`L, \
+            NumericQ[$CellContext`val], $CellContext`val, 
+            Indeterminate]]; $CellContext`RestPointEigenvalues[
+          Pattern[$CellContext`restPoints, 
+           Blank[List]], 
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[List]], 
+          Pattern[$CellContext`FMatrix, 
+           Blank[]]] := 
+        Map[$CellContext`RestPointDerivative[$CellContext`L, \
 $CellContext`FMatrix, $CellContext`m, #, 
-          $CellContext`PoolFromPopGivenL[#, $CellContext`L]]& , \
+           $CellContext`PoolFromPopGivenL[#, $CellContext`L]]& , \
 $CellContext`restPoints]; $CellContext`RestPointDot[
-         Pattern[$CellContext`type, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`bw, 
-           Blank[]], False]] := Graphics[{
-          EdgeForm[
-           Directive[Thin, Black]], 
-          $CellContext`RestPointColor[$CellContext`type, $CellContext`bw], 
-          Disk[]}, ImageSize -> 9]; $CellContext`RestPointTag[
-         Pattern[$CellContext`type, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`bw, 
-           Blank[]], False]] := Row[{
-          $CellContext`RestPointDot[$CellContext`type, $CellContext`bw], 
-          "\[ThinSpace]", 
-          Style[$CellContext`type, 10]}]; $CellContext`RestPointLegend[
-         Pattern[$CellContext`types, 
-          Blank[]], 
-         Optional[
-          Pattern[$CellContext`bw, 
-           Blank[]], False]] := Row[
-         Riffle[
-          Map[$CellContext`RestPointTag[#, $CellContext`bw]& , 
-           
-           Select[{"sink", "source", "undetermined"}, 
-            MemberQ[$CellContext`types, #]& ]], 
-          "\[ThickSpace]\[ThickSpace]"]]; $CellContext`StrategyName[
-         Pattern[$CellContext`s, 
-          Blank[List]]] := 
-       Switch[$CellContext`s, {0, 0, 2, 0, 2}, "CSL", {1, 1, 2, 1, 2}, 
-         "DSL", {0, 0, 2, 2, 0}, "c0a", {0, 0, 2, 2, 2}, "c0b", {1, 0, 2, 2, 
-         0}, "Leaver", {1, 1, 1, 1, 1}, "Defector", {0, 0, 0, 0, 0}, 
-         "Cooperator", {1, 2, 2, 2, 2}, "Defect&Leave", {0, 0, 1, 1, 0}, 
-         "WSLS", {1, 0, 1, 1, 0}, "nWSLS", {0, 0, 1, 1, 1}, "Grim", {0, 0, 1, 
-         0, 1}, "TFT", {0, 0, 1, 0, 0}, "TFTlike", {1, 0, 2, 1, 0}, 
-         "leaver1", {1, 0, 2, 0, 0}, "leaver3", 
-         Blank[], 
-         $CellContext`ToLetters[$CellContext`s]]; $CellContext`ToLetters[
-         Pattern[$CellContext`s, 
-          Blank[List]]] := StringJoin[
-         ReplaceAll[$CellContext`s, {0 -> "C", 1 -> "D", 2 -> "L"}]]; Null); 
+          Pattern[$CellContext`type, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`bw, 
+            Blank[]], False]] := Graphics[{
+           EdgeForm[
+            Directive[Thin, Black]], 
+           $CellContext`RestPointColor[$CellContext`type, $CellContext`bw], 
+           Disk[]}, ImageSize -> 9]; $CellContext`RestPointTag[
+          Pattern[$CellContext`type, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`bw, 
+            Blank[]], False]] := Row[{
+           $CellContext`RestPointDot[$CellContext`type, $CellContext`bw], 
+           "\[ThinSpace]", 
+           Style[$CellContext`type, 10]}]; $CellContext`RestPointLegend[
+          Pattern[$CellContext`types, 
+           Blank[]], 
+          Optional[
+           Pattern[$CellContext`bw, 
+            Blank[]], False]] := Row[
+          Riffle[
+           Map[$CellContext`RestPointTag[#, $CellContext`bw]& , 
+            
+            Select[{"sink", "source", "undetermined"}, 
+             MemberQ[$CellContext`types, #]& ]], 
+           "\[ThickSpace]\[ThickSpace]"]]; $CellContext`StrategyName[
+          Pattern[$CellContext`s, 
+           Blank[List]]] := 
+        Switch[$CellContext`s, {0, 0, 2, 0, 2}, "CSL", {1, 1, 2, 1, 2}, 
+          "DSL", {0, 0, 2, 2, 0}, "c0a", {0, 0, 2, 2, 2}, "c0b", {1, 0, 2, 2, 
+          0}, "Leaver", {1, 1, 1, 1, 1}, "Defector", {0, 0, 0, 0, 0}, 
+          "Cooperator", {1, 2, 2, 2, 2}, "Defect&Leave", {0, 0, 1, 1, 0}, 
+          "WSLS", {1, 0, 1, 1, 0}, "nWSLS", {0, 0, 1, 1, 1}, "Grim", {0, 0, 1,
+           0, 1}, "TFT", {0, 0, 1, 0, 0}, "TFTlike", {1, 0, 2, 1, 0}, 
+          "leaver1", {1, 0, 2, 0, 0}, "leaver3", 
+          Blank[], 
+          $CellContext`ToLetters[$CellContext`s]]; $CellContext`ToLetters[
+          Pattern[$CellContext`s, 
+           Blank[List]]] := StringJoin[
+          ReplaceAll[$CellContext`s, {0 -> "C", 1 -> "D", 2 -> "L"}]]; Null}; 
      Typeset`initDone$$ = True),
     SynchronousInitialization->True,
     UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
@@ -1899,7 +2659,7 @@ $CellContext`restPoints]; $CellContext`RestPointDot[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellLabel->"Out[1]=",ExpressionUUID->"7f809ba5-4d21-4bd0-b535-e6fe2e4ff6c6"],
+ CellLabel->"Out[1]=",ExpressionUUID->"261913b3-c127-4b8b-8c46-b23dec54eb0a"],
 
 Cell[CellGroupData[{
 
@@ -5616,7 +6376,7 @@ error \[Epsilon] = \>\"", "<>",
           RowBox[{"black", " ", "sink"}]}]}], ",", " ", 
         RowBox[{"white", " ", "source"}], ",", " ", 
         RowBox[{"mid", " ", "grey", " ", "saddle"}], ",", " ", 
-        RowBox[{"light", " ", "grey", " ", "linear", " ", "centre"}], ",", 
+        RowBox[{"light", " ", "grey", " ", "linear", " ", "center"}], ",", 
         " ", 
         RowBox[{"dark", " ", "grey", " ", 
          RowBox[{"undetermined", "."}]}]}], "*)"}], 
@@ -5630,7 +6390,7 @@ error \[Epsilon] = \>\"", "<>",
           RowBox[{
           "type", ",", "\"\<sink\>\"", ",", "Black", ",", "\"\<source\>\"", ",",
             "White", ",", "\"\<saddle\>\"", ",", 
-           RowBox[{"GrayLevel", "[", "0.5", "]"}], ",", "\"\<centre\>\"", ",", 
+           RowBox[{"GrayLevel", "[", "0.5", "]"}], ",", "\"\<center\>\"", ",", 
            RowBox[{"GrayLevel", "[", "0.8", "]"}], ",", "_", ",", 
            RowBox[{"GrayLevel", "[", "0.3", "]"}]}], "]"}], ",", 
          RowBox[{"Switch", "[", 
@@ -6045,77 +6805,75 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[576, 22, 164, 3, 117, "Title",ExpressionUUID->"be2ab95f-49ca-4d64-983e-6549390d65ef"],
+Cell[576, 22, 164, 3, 159, "Title",ExpressionUUID->"be2ab95f-49ca-4d64-983e-6549390d65ef"],
 Cell[743, 27, 437, 14, 45, "Subtitle",ExpressionUUID->"c414d9db-7737-4bde-8abd-eaa0928aedb2"]
 }, Open  ]],
-Cell[1195, 44, 91632, 1857, 841, "Output",ExpressionUUID->"7f809ba5-4d21-4bd0-b535-e6fe2e4ff6c6"],
+Cell[1195, 44, 126514, 2617, 841, "Output",ExpressionUUID->"261913b3-c127-4b8b-8c46-b23dec54eb0a"],
 Cell[CellGroupData[{
-Cell[92852, 1905, 146, 3, 90, "Section",ExpressionUUID->"e5b48c76-9ef9-435c-93ae-347850a12596",
+Cell[127734, 2665, 146, 3, 90, "Section",ExpressionUUID->"e5b48c76-9ef9-435c-93ae-347850a12596",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[93001, 1910, 280, 4, 70, "Text",ExpressionUUID->"8c845bcb-a751-4dec-8482-ce147cb1ad0b"],
+Cell[127883, 2670, 280, 4, 70, "Text",ExpressionUUID->"8c845bcb-a751-4dec-8482-ce147cb1ad0b"],
 Cell[CellGroupData[{
-Cell[93306, 1918, 87, 0, 70, "Subsection",ExpressionUUID->"590dddd8-31a9-4c5f-b4c8-2bf175fb5cbb"],
+Cell[128188, 2678, 87, 0, 70, "Subsection",ExpressionUUID->"590dddd8-31a9-4c5f-b4c8-2bf175fb5cbb"],
 Cell[CellGroupData[{
-Cell[93418, 1922, 87, 0, 70, "Subsubsection",ExpressionUUID->"c076fe37-74af-4c6c-9752-2049e3ce6a44"],
-Cell[93508, 1924, 843, 18, 70, "Text",ExpressionUUID->"7d6bdaef-365b-4320-ac7c-966c6db12e1c"]
+Cell[128300, 2682, 87, 0, 70, "Subsubsection",ExpressionUUID->"c076fe37-74af-4c6c-9752-2049e3ce6a44"],
+Cell[128390, 2684, 843, 18, 70, "Text",ExpressionUUID->"7d6bdaef-365b-4320-ac7c-966c6db12e1c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[94388, 1947, 90, 0, 70, "Subsubsection",ExpressionUUID->"2eaed39b-5511-4ec6-91fc-673e4fd1cbe8"],
-Cell[94481, 1949, 176, 2, 70, "Text",ExpressionUUID->"43be6ad7-59cb-434b-aebd-390f8849047f"],
-Cell[94660, 1953, 284, 3, 70, "Item",ExpressionUUID->"81895113-ea99-4768-8374-34d1c25411bc"],
-Cell[94947, 1958, 251, 3, 70, "Item",ExpressionUUID->"6816733d-a258-49e1-93e7-234ff6e5e299"],
-Cell[95201, 1963, 214, 2, 70, "Subitem",ExpressionUUID->"52dc2971-0320-4945-ad8e-b742af5bf4ca"],
-Cell[95418, 1967, 214, 2, 70, "Subitem",ExpressionUUID->"98ed99d6-b4eb-4137-970f-51c7a4573dfe"],
-Cell[95635, 1971, 222, 2, 70, "Subitem",ExpressionUUID->"8dcab4ef-85dc-4142-9d80-a1cf4986801b"],
-Cell[95860, 1975, 278, 3, 70, "Item",ExpressionUUID->"8f300e86-53bd-4204-870e-3fc7abb719d3"],
-Cell[96141, 1980, 274, 3, 70, "Item",ExpressionUUID->"ca3b8f61-65f3-4408-aaa0-0b2432880027"],
-Cell[96418, 1985, 230, 2, 70, "Item",ExpressionUUID->"9ed479f3-6a45-4384-a848-ba0ebda4f1af"],
-Cell[96651, 1989, 654, 9, 70, "Text",ExpressionUUID->"6d9bfa5c-7bc9-47bc-ae71-759b6ce57154"]
+Cell[129270, 2707, 90, 0, 70, "Subsubsection",ExpressionUUID->"2eaed39b-5511-4ec6-91fc-673e4fd1cbe8"],
+Cell[129363, 2709, 176, 2, 70, "Text",ExpressionUUID->"43be6ad7-59cb-434b-aebd-390f8849047f"],
+Cell[129542, 2713, 284, 3, 70, "Item",ExpressionUUID->"81895113-ea99-4768-8374-34d1c25411bc"],
+Cell[129829, 2718, 251, 3, 70, "Item",ExpressionUUID->"6816733d-a258-49e1-93e7-234ff6e5e299"],
+Cell[130083, 2723, 214, 2, 70, "Subitem",ExpressionUUID->"52dc2971-0320-4945-ad8e-b742af5bf4ca"],
+Cell[130300, 2727, 214, 2, 70, "Subitem",ExpressionUUID->"98ed99d6-b4eb-4137-970f-51c7a4573dfe"],
+Cell[130517, 2731, 222, 2, 70, "Subitem",ExpressionUUID->"8dcab4ef-85dc-4142-9d80-a1cf4986801b"],
+Cell[130742, 2735, 278, 3, 70, "Item",ExpressionUUID->"8f300e86-53bd-4204-870e-3fc7abb719d3"],
+Cell[131023, 2740, 274, 3, 70, "Item",ExpressionUUID->"ca3b8f61-65f3-4408-aaa0-0b2432880027"],
+Cell[131300, 2745, 230, 2, 70, "Item",ExpressionUUID->"9ed479f3-6a45-4384-a848-ba0ebda4f1af"],
+Cell[131533, 2749, 654, 9, 70, "Text",ExpressionUUID->"6d9bfa5c-7bc9-47bc-ae71-759b6ce57154"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97342, 2003, 177, 3, 70, "Subsubsection",ExpressionUUID->"5985c2db-a143-429f-80ca-2bfedd227236",
+Cell[132224, 2763, 177, 3, 70, "Subsubsection",ExpressionUUID->"5985c2db-a143-429f-80ca-2bfedd227236",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[97522, 2008, 435, 0, 70, "Text",ExpressionUUID->"cd4d2de9-ce08-40b7-86bc-0f829db4301b"]
+Cell[132404, 2768, 435, 0, 70, "Text",ExpressionUUID->"cd4d2de9-ce08-40b7-86bc-0f829db4301b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[97994, 2013, 175, 3, 70, "Subsubsection",ExpressionUUID->"c31057d9-c246-4446-9322-91110e3310ce",
+Cell[132876, 2773, 175, 3, 70, "Subsubsection",ExpressionUUID->"c31057d9-c246-4446-9322-91110e3310ce",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[98172, 2018, 991, 19, 70, "Text",ExpressionUUID->"4b87dbdd-2993-4142-a774-6fd50bd07639"]
+Cell[133054, 2778, 991, 19, 70, "Text",ExpressionUUID->"4b87dbdd-2993-4142-a774-6fd50bd07639"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[99200, 2042, 175, 3, 70, "Subsubsection",ExpressionUUID->"bfaf77e0-e6d2-4970-b577-864e9e9975b4",
+Cell[134082, 2802, 175, 3, 70, "Subsubsection",ExpressionUUID->"bfaf77e0-e6d2-4970-b577-864e9e9975b4",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[99378, 2047, 645, 16, 70, "Text",ExpressionUUID->"7a73b3c6-6ad5-40f9-b61d-cc385c114f05"],
-Cell[100026, 2065, 917, 28, 70, "Text",ExpressionUUID->"dc6836c9-62ff-4dcf-ba8e-ccd844a6dd73"]
+Cell[134260, 2807, 645, 16, 70, "Text",ExpressionUUID->"7a73b3c6-6ad5-40f9-b61d-cc385c114f05"],
+Cell[134908, 2825, 917, 28, 70, "Text",ExpressionUUID->"dc6836c9-62ff-4dcf-ba8e-ccd844a6dd73"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[100980, 2098, 145, 3, 70, "Subsubsection",ExpressionUUID->"bed87209-639e-4e3a-80bb-89dca27c294f",
+Cell[135862, 2858, 145, 3, 70, "Subsubsection",ExpressionUUID->"bed87209-639e-4e3a-80bb-89dca27c294f",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[101128, 2103, 1186, 11, 70, "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
+Cell[136010, 2863, 1186, 11, 70, "Text",ExpressionUUID->"26f7cd6e-d2ee-40d9-bc15-744401e7e367"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102351, 2119, 157, 3, 70, "Subsubsection",ExpressionUUID->"7c3288be-66d2-48c9-91e2-0e038645dc38",
+Cell[137233, 2879, 157, 3, 70, "Subsubsection",ExpressionUUID->"7c3288be-66d2-48c9-91e2-0e038645dc38",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[102511, 2124, 716, 0, 70, "Text",ExpressionUUID->"cdbe5ae8-ee0d-4694-9900-5fef15f14245"]
+Cell[137393, 2884, 716, 0, 70, "Text",ExpressionUUID->"cdbe5ae8-ee0d-4694-9900-5fef15f14245"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[103276, 2130, 142, 3, 70, "Subsection",ExpressionUUID->"597b3f87-ed10-4d79-b4a4-749e420985f7",
+Cell[138158, 2890, 142, 3, 70, "Subsection",ExpressionUUID->"597b3f87-ed10-4d79-b4a4-749e420985f7",
  CellGroupingRules->{"SectionGrouping", Inherited}],
-Cell[103421, 2135, 3203, 0, 70, "Text",ExpressionUUID->"6b7ccf26-cf8a-48fc-aa7a-33705c52788c"]
+Cell[138303, 2895, 3203, 0, 70, "Text",ExpressionUUID->"6b7ccf26-cf8a-48fc-aa7a-33705c52788c"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[106673, 2141, 88, 0, 51, "Section",ExpressionUUID->"55447b59-612e-4591-8e42-22aa94d55bf5"],
-Cell[106764, 2143, 2066, 42, 70, "Text",ExpressionUUID->"3e570553-cd0b-47f0-bf9b-dcd4a5acb375"]
+Cell[141555, 2901, 88, 0, 51, "Section",ExpressionUUID->"55447b59-612e-4591-8e42-22aa94d55bf5"],
+Cell[141646, 2903, 2066, 42, 70, "Text",ExpressionUUID->"3e570553-cd0b-47f0-bf9b-dcd4a5acb375"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[108867, 2190, 85, 0, 51, "Section",ExpressionUUID->"d7fc9b4c-924e-445b-8538-aebcffdbf017"],
-Cell[108955, 2192, 166892, 3828, 17603, "Input",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
+Cell[143749, 2950, 85, 0, 51, "Section",ExpressionUUID->"d7fc9b4c-924e-445b-8538-aebcffdbf017"],
+Cell[143837, 2952, 166892, 3828, 17603, "Input",ExpressionUUID->"ebe497d7-c6bb-4946-9a6d-3dd577d63d4d"]
 }, Closed]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
